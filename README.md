@@ -5,3 +5,17 @@ Beta builds are available on the [Quartz's Console](https://quartzsconsole.novas
 Note: These versions aren't finalized.
 
 The GNU GPL License applies to Gamemode4's mod. I'm very dumb on how to license stuff.
+
+Credits:
+Bathtubfulloftoast
+TheMinecraftArchitect
+MC4f
+LaffyTaffy
+N00b - Original modpack
+Gamemode4 - Better Armor Stands w/ modification
+DBTDerpbox - website inspiration
+AgentMindStorm - generic icon textures from Bedrock
+shmoobalizer - Developer Art+ textures
+Julie "Danger" Kennedy - Original console UI design
+4J Studios - for making the console editions
+Mojang - for making Minecraft
