@@ -3,3 +3,5 @@ Early & unfinished previews of another Legacy Edition Remake for Java 1.19.2. Ex
 Beta builds are available on the [Quartz's Console](https://quartzsconsole.novassite.net) official website!
 
 Note: These versions aren't finalized.
+
+The GNU GPL License applies to Gamemode4's mod. I'm very dumb on how to license stuff.
