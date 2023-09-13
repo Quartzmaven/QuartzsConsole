@@ -3,3 +3,5 @@ Early & unfinished previews of another Legacy Edition Remake for Java 1.19.2. Ex
 Beta builds are available on the [Quartz's Console](https://quartzsconsole.novassite.net) official website!
 
 Note: These versions aren't finalized.
+
+This is a test. Hope it doesn't violate Webhook TOS.
