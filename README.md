@@ -14,7 +14,7 @@ Credits:
 - N00b - Original modpack
 - Gamemode4 - Better Armor Stands w/ modification
 - DBTDerpbox - website inspiration
-- AgentMindStorm - generic icon textures from Bedrock
+- AgentMindStorm - generic icon textures from the Bedrock addon.
 - shmoobalizer - Developer Art+ textures
 - Julie "Danger" Kennedy - Original console UI design
 - 4J Studios - for making the console editions
