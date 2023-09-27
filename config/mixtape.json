@@ -1,0 +1,58 @@
+{
+  "mainConfig": {
+    "enabled": true,
+    "varyPitch": false,
+    "minNoteChange": -3,
+    "maxNoteChange": 3,
+    "mixtapeButtonLocation": "IN_MUSIC_BUTTON",
+    "musicType": "AUTOMATIC"
+  },
+  "menuConfig": {
+    "enabled": true,
+    "minSongDelay": 20,
+    "maxSongDelay": 600,
+    "volume": 100.0
+  },
+  "creativeConfig": {
+    "enabled": true,
+    "minSongDelay": 20,
+    "maxSongDelay": 600,
+    "volume": 100.0
+  },
+  "gameConfig": {
+    "enabled": true,
+    "minSongDelay": 20,
+    "maxSongDelay": 600,
+    "creativeMusicPlaysInSurvival": false,
+    "volume": 100.0
+  },
+  "underwaterConfig": {
+    "enabled": true,
+    "minSongDelay": 20,
+    "maxSongDelay": 600,
+    "volume": 100.0
+  },
+  "endConfig": {
+    "enabled": true,
+    "minSongDelay": 20,
+    "maxSongDelay": 600,
+    "volume": 100.0
+  },
+  "netherConfig": {
+    "enabled": true,
+    "minSongDelay": 20,
+    "maxSongDelay": 600,
+    "volume": 100.0
+  },
+  "creditsConfig": {
+    "enabled": true,
+    "volume": 100.0
+  },
+  "jukeboxConfig": {
+    "enabled": true,
+    "mono": false,
+    "elevenReplaces11": false,
+    "dogReplacesCat": false,
+    "volume": 400.0
+  }
+}

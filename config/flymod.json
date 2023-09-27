@@ -1,0 +1,10 @@
+{
+  "mouse_control": false,
+  "only_for_creative": true,
+  "fly_up_down_blocks": 0.4,
+  "fly_speed_multiplier": 1.0,
+  "run_speed_multiplier": 1.0,
+  "multiply_up_down": true,
+  "fade_movement": true,
+  "override_exhaustion": false
+}

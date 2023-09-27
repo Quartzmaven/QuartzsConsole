@@ -1,0 +1,102 @@
+{
+	"shieldParryTicks": 4,
+	"shieldParryKnockbackStrength": 9.0,
+	"shieldSlownessAfterParry": 100,
+	"shieldSlownessAfterParryAmplifier": 1,
+	"shieldWeaknessAfterParry": 0,
+	"shieldWeaknessAfterParryAmplifier": 1,
+	"shieldDisarmAfterParry": 45,
+	"cooldownAfterInterruptingShieldBlockAction": 0,
+	"cooldownAfterShieldParryAction": 0,
+	// Sword
+	"enableBlockingWithSword": true,
+	"swordParryTicks": 4,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"swordBlockMeleeDamageTaken": 50,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"swordBlockArrowDamageTaken": 90,
+	"swordParryKnockbackStrength": 6.0,
+	"swordSlownessAfterParry": 100,
+	"swordSlownessAfterParryAmplifier": 1,
+	"swordWeaknessAfterParry": 0,
+	"swordWeaknessAfterParryAmplifier": 1,
+	"swordDisarmAfterParry": 45,
+	"cooldownAfterInterruptingSwordBlockAction": 0,
+	"cooldownAfterSwordParryAction": 0,
+	// Axe
+	"enableBlockingWithAxe": false,
+	"axeParryTicks": 4,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"axeBlockMeleeDamageTaken": 43,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"axeBlockArrowDamageTaken": 85,
+	"axeParryKnockbackStrength": 7.0,
+	"axeSlownessAfterParry": 100,
+	"axeSlownessAfterParryAmplifier": 1,
+	"axeWeaknessAfterParry": 0,
+	"axeWeaknessAfterParryAmplifier": 1,
+	"axeDisarmAfterParry": 45,
+	"cooldownAfterInterruptingAxeBlockAction": 24,
+	"cooldownAfterAxeParryAction": 15,
+	// Shovel
+	"enableBlockingWithShovel": false,
+	"shovelParryTicks": 2,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"shovelBlockMeleeDamageTaken": 71,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"shovelBlockArrowDamageTaken": 82,
+	"shovelParryKnockbackStrength": 9.0,
+	"shovelSlownessAfterParry": 110,
+	"shovelSlownessAfterParryAmplifier": 1,
+	"shovelWeaknessAfterParry": 0,
+	"shovelWeaknessAfterParryAmplifier": 1,
+	"shovelDisarmAfterParry": 28,
+	"cooldownAfterInterruptingShovelBlockAction": 30,
+	"cooldownAfterShovelParryAction": 20,
+	// Hoe
+	"enableBlockingWithHoe": false,
+	"hoeParryTicks": 1,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"hoeBlockMeleeDamageTaken": 85,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"hoeBlockArrowDamageTaken": 97,
+	"hoeParryKnockbackStrength": 3.0,
+	"hoeSlownessAfterParry": 40,
+	"hoeSlownessAfterParryAmplifier": 1,
+	"hoeWeaknessAfterParry": 0,
+	"hoeWeaknessAfterParryAmplifier": 1,
+	"hoeDisarmAfterParry": 25,
+	"cooldownAfterInterruptingHoeBlockAction": 8,
+	"cooldownAfterHoeParryAction": 2,
+	// Pickaxe
+	"enableBlockingWithPickaxe": false,
+	"pickaxeParryTicks": 0,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"pickaxeBlockMeleeDamageTaken": 80,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"pickaxeBlockArrowDamageTaken": 95,
+	"pickaxeParryKnockbackStrength": 5.0,
+	"pickaxeSlownessAfterParry": 100,
+	"pickaxeSlownessAfterParryAmplifier": 1,
+	"pickaxeWeaknessAfterParry": 0,
+	"pickaxeWeaknessAfterParryAmplifier": 1,
+	"pickaxeDisarmAfterParry": 20,
+	"cooldownAfterInterruptingPickaxeBlockAction": 35,
+	"cooldownAfterPickaxeParryAction": 28,
+	// Example: when set to 3, and knockback strength of active item is 9, knockback strength for parried player will be 6 (9 - 3 = 6)
+	"parryKnockbackStrengthForPlayersModifier": 7,
+	// Example: when set to 30, and weakness duration of active item is 100, weakness duration for parried player will be 70 (100 - 30 = 70)
+	"weaknessForPlayersAfterParryModifier": 0,
+	// Example: when set to 1, and weakness amplifier of active item is 2, weakness amplifier for parried player will be 1 (2 - 1 = 1)
+	"weaknessForPlayersAmplifierModifier": 0,
+	// Example: when set to -30, and slowness duration of active item is 100, slowness duration for parried player will be 130 (100 - (-30) = 130)
+	"slownessForPlayersAfterParryModifier": 0,
+	// Example: when set to -1, and slowness amplifier of active item is 1, slowness amplifier for parried player will be 2 (1 - (-1) = 2)
+	"slownessForPlayersAmplifierModifier": 0,
+	// When true, axe attack will set cooldown whether it was parry or not
+	"disableBlockAfterParryingAxeAttack": false,
+	// This option doesn't do anything when blocking with axes and swords is disabled
+	"enchantmentsForShieldsCanAppearOnWeaponsInChests": false,
+	// Dual wielding settings: 0 - player can block and parry with empty offhand;  1 - player can also block and parry when dual wields weapons; 2 - player can block and parry with any item in offhand;
+	"enableBlockingWhenDualWielding": 2
+}

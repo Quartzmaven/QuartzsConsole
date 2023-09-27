@@ -1,0 +1,5 @@
+{ 
+	"defaultBoosters": true,
+	"defaultInfCap": true,
+	"defaultCap": 50.0
+}

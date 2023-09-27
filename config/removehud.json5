@@ -1,0 +1,30 @@
+{
+	// If false block outlines will not be visible
+	"highlightBlocks": true,
+	// Setting will toggle all of the HUD
+	"removeHud": false,
+	// If true the hand will be invisible
+	"removeHand": false,
+	"Autosave": true,
+	"ChatHud": true,
+	"PlayerList": true,
+	"DebugHud": true,
+	"ScoreBoard": true,
+	"StatusEffectOverlay": true,
+	"SpectatorHud": true,
+	"SpectatorMenu": true,
+	"HeldItemTooltip": true,
+	"MountJumpbar": true,
+	"MountHealth": true,
+	"BossBar": true,
+	// Health, Hunger, and Armor
+	"StatusBars": true,
+	"SpyglassOverlay": true,
+	"PortalOverlay": true,
+	// Frost Overlay, Pumkin head, etc...
+	"OtherOverlays": true,
+	"Vignette": true,
+	"ExpBar": true,
+	"Crosshairs": true,
+	"HotBar": true
+}

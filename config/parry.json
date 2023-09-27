@@ -1,0 +1,19 @@
+{
+    "default_multiplier": 0.6,
+    "consume_animation": false,
+    "prioritize_shield": true,
+    "overrides": [
+        {
+            "item": "minecraft:iron_sword",
+            "multiplier": 2.5
+        },
+        {
+            "item": "minecraft:gold_sword",
+            "multiplier": 2.5
+        },
+        {
+            "item": "minecraft:netherite_sword",
+            "multiplier": 2.5
+        }
+    ]
+}

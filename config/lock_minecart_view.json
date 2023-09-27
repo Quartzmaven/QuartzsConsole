@@ -1,0 +1,8 @@
+{
+  "smoothMode": true
+  "smartMode": false,
+  "threshold": 8,
+  "rollerCoasterMode": false,
+  "enabled": true,
+  "showDebug": false
+}
