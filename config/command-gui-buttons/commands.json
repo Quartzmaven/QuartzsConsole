@@ -1,0 +1,299 @@
+[
+  {
+    "displayName": "Invisible",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/effect give @s minecraft:invisibility 99999 255 true",
+      "/effect give @s minecraft:regeneration 99999 255 true",
+      "/effect give @s minecraft:instant_health 99999 255 true",
+      "/effect give @s minecraft:resistance 99999 255 true",
+      "/tellraw @s \"You are now invisible\"",
+      "/tellraw @s \"You are now invulnerable\""
+    ]
+  },
+  {
+    "displayName": "Disable Invis.",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/effect clear @s minecraft:invisibility",
+      "/effect clear @s minecraft:resistance",
+      "/effect clear @s minecraft:instant_health",
+      "/effect clear @s minecraft:regeneration",
+      "/tellraw @s \"You are no longer invisible\"",
+      "/tellraw @s \"You are no longer invulnerable\""
+    ]
+  },
+  {
+    "displayName": "PlayerSpawn",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/spawnpoint",
+      "/execute as @p run tellraw @a [\"\",{\"text\":\"Set \"},{\"selector\":\"@s\"},{\"text\":\"\u0027s spawn point to X:\"},{\"nbt\":\"Pos[0]\",\"entity\":\"@s\"},{\"text\":\" Y:\"},{\"nbt\":\"Pos[1]\",\"entity\":\"@s\"},{\"text\":\" Z:\"},{\"nbt\":\"Pos[2]\",\"entity\":\"@s\"}]"
+    ]
+  },
+  {
+    "displayName": "WorldSpawn",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/setworldspawn",
+      "/execute as @p run tellraw @a [\"\",{\"text\":\"Set the world spawn point to X:\"},{\"nbt\":\"Pos[0]\",\"entity\":\"@s\"},{\"text\":\" Y:\"},{\"nbt\":\"Pos[1]\",\"entity\":\"@s\"},{\"text\":\" Z:\"},{\"nbt\":\"Pos[2]\",\"entity\":\"@s\"}]"
+    ]
+  },
+  {
+    "displayName": "Flying",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/fly @s allow",
+      "/tellraw @s \"You can now fly\""
+    ]
+  },
+  {
+    "displayName": "Disable Fly",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/fly @s noAllow",
+      "/tellraw @s \"You can no longer fly\""
+    ]
+  },
+  {
+    "displayName": "No Exhaust",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/effect give @s minecraft:saturation 99999 255 true",
+      "/tellraw @s \"You will no longer get exhausted\""
+    ]
+  },
+  {
+    "displayName": "Exhaust",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/effect clear @s minecraft:saturation",
+      "/tellraw @s \"You will now get exhausted\""
+    ]
+  },
+  {
+    "displayName": "Set Day",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/time set day",
+      "/tellraw @s \"Set the time to day\""
+    ]
+  },
+  {
+    "displayName": "Set Night",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/time set night",
+      "/tellraw @a \"Set the time to night\""
+    ]
+  },
+  {
+    "displayName": "Survival",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamemode survival @s",
+      "/tellraw @a \"Set own game mode to Survival\""
+    ]
+  },
+  {
+    "displayName": "Creative",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamemode creative @s",
+      "/tellraw @a \"Set own game mode to Creative\""
+    ]
+  },
+  {
+    "displayName": "Adventure",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamemode adventure @s",
+      "/tellraw @a \"Set own game mode to Adventure\""
+    ]
+  },
+  {
+    "displayName": "Spectator",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamemode spectator @s",
+      "/tellraw @a \"Set own game mode to Spectator\""
+    ]
+  },
+  {
+    "displayName": "Enable FS",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doFireTick true",
+      "/tellraw @s \"Enabled game rule: Fire Spread\""
+    ]
+  },
+  {
+    "displayName": "Disable FS",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doFireTick false",
+      "/tellraw @s \"Disabled game rule: Fire Spread\""
+    ]
+  },
+  {
+    "displayName": "Enable DC",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doDaylightCycle true",
+      "/tellraw @s \"Enabled game rule: Daylight Cycle\""
+    ]
+  },
+  {
+    "displayName": "Disable DC",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doDaylightCycle false",
+      "/tellraw @s \"Disabled game rule: Daylight Cycle\""
+    ]
+  },
+  {
+    "displayName": "Enable KI",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule keepInventory true",
+      "/tellraw @s \"Enabled game rule: Keep Inventory\""
+    ]
+  },
+  {
+    "displayName": "Disable KI",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule keepInventory false",
+      "/tellraw @s \"Disabled game rule: Keep Inventory\""
+    ]
+  },
+  {
+    "displayName": "Enable MG",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule mobGriefing true",
+      "/tellraw @s \"Enabled game rule: Mob Griefing\""
+    ]
+  },
+  {
+    "displayName": "Disable MG",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule mobGriefing false",
+      "/tellraw @s \"Disabled game rule: Mob Griefing\""
+    ]
+  },
+  {
+    "displayName": "Enable ML",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doMobLoot true",
+      "/tellraw @s \"Enabled game rule: Mob Loot\""
+    ]
+  },
+  {
+    "displayName": "Disable ML",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doMobLoot false",
+      "/tellraw @s \"Disabled game rule: Mob Loot\""
+    ]
+  },
+  {
+    "displayName": "Enable TD",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doTileDrops true",
+      "/tellraw @s \"Enabled game rule: Tile Drops\""
+    ]
+  },
+  {
+    "displayName": "Disable TD",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doTileDrops false",
+      "/tellraw @s \"Disabled game rule: Tile Drops\""
+    ]
+  },
+  {
+    "displayName": "Enable NR",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule naturalRegeneration true",
+      "/tellraw @s \"Enabled game rule: Natural Regeneration\""
+    ]
+  },
+  {
+    "displayName": "Disable NR",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule naturalRegeneration false",
+      "/tellraw @s \"Disabled game rule: Natural Regeneration\""
+    ]
+  },
+  {
+    "displayName": "Weather ON",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doWeatherCycle true",
+      "/tellraw @s \"Enabled game rule: Weather Cycle\""
+    ]
+  },
+  {
+    "displayName": "Weather OFF",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doWeatherCycle false",
+      "/tellraw @s \"Disabled game rule: Weather Cycle\""
+    ]
+  },
+  {
+    "displayName": "Clear",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/weather clear",
+      "/tellraw @a \"Changing to clear weather\""
+    ]
+  },
+  {
+    "displayName": "Rain",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/weather rain",
+      "/tellraw @a \"Changing to rainy weather\""
+    ]
+  },
+  {
+    "displayName": "Thunder",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/weather thunder",
+      "/tellraw @a \"Changing to rain and thunder\""
+    ]
+  },
+  {
+    "displayName": "Info",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/tellraw @s \"These are the buttons for Host Privileges like in Legacy. You can fly in Survival, Disable Exhaustion, and more. If you enable cheats in your world, you can use this menu to activate cheats in one click.\"",
+      "/tellraw @s \"All of this are possible thanks to Command GUI Buttons mod.\"",
+      "/tellraw @s \"It can run multiple commands. If cheats are disabled in your world, these buttons will not work. Enjoy! \u003d)\""
+    ]
+  },
+  {
+    "displayName": "Enable TE",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doTntGriefing true",
+      "/tellraw @s \"Enabled game rule: TNT Explodes\""
+    ]
+  },
+  {
+    "displayName": "Disable TE",
+    "raw": [
+      "/gamerule sendCommandFeedback false",
+      "/gamerule doTntGriefing false",
+      "/tellraw @s \"Disabled game rule: TNT Explodes\""
+    ]
+  }
+]
