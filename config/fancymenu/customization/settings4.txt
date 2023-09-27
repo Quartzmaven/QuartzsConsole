@@ -1,0 +1,391 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_429
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:fdb783df-5346-47ba-82fe-db3f22d5f1f21680871948786] = 
+}
+
+customization {
+  path = resources/uistuff/dark.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=635208%
+  orientation = top-left
+  x = -75
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 113
+}
+
+customization {
+  identifier = %id=505154%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505154%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/online-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/online.png
+}
+
+customization {
+  identifier = %id=345280%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 281
+}
+
+customization {
+  identifier = %id=345280%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345280%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=345280%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/resourcepacks-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/resourcepacks.png
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = top-centered
+  x = -113
+  action = movebutton
+  y = 92
+}
+
+customization {
+  identifier = %id=345154%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505280%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 302
+}
+
+customization {
+  identifier = %id=505280%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505280%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505280%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/accessibilitysettings-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/accessibilitysettings.png
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-centered
+  x = -113
+  action = movebutton
+  y = 143
+}
+
+customization {
+  identifier = %id=400334%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400334%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/done-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/done.png
+}
+
+customization {
+  identifier = %id=345256%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 239
+}
+
+customization {
+  identifier = %id=345256%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345256%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=345256%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/language-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/language.png
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 260
+}
+
+customization {
+  identifier = %id=505256%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505256%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505256%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/chatsettings-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/chatsettings.png
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 197
+}
+
+customization {
+  identifier = %id=345232%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=345232%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/videosettings-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/videosettings.png
+}
+
+customization {
+  identifier = %id=505232%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 176
+}
+
+customization {
+  identifier = %id=505232%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505232%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505232%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls.png
+}
+
+customization {
+  identifier = %id=635154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345304%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345304%
+  orientation = top-left
+  x = 452
+  action = movebutton
+  y = 188
+}
+
+customization {
+  identifier = %id=345304%
+  width = 129
+  action = resizebutton
+  height = 76
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 155
+}
+
+customization {
+  identifier = %id=345208%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345208%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=345208%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/skincustomization-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/skincustomization.png
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = top-left
+  x = 207
+  action = movebutton
+  y = 218
+}
+
+customization {
+  identifier = %id=505208%
+  width = 226
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505208%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505208%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/audio-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/audio.png
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/settings/howtoplay-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 207
+  width = 226
+  action = addbutton
+  actionid = bcb53e57-14ee-4ebe-b447-731d82540a8b1684654305102
+  y = 134
+  backgroundnormal = config/fancymenu/buttons/settings/howtoplay.png
+  height = 20
+}
+

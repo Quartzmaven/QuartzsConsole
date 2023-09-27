@@ -1,0 +1,27 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_4189
+  randomgroup = 1
+  renderorder = background
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:e8cc1f73-21b7-4dfa-9afb-fd67c413b8671680872564014] = 
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = mid-centered
+  x = -165
+  width = 331
+  action = addtexture
+  actionid = fbcf7556-3a75-450f-adf0-ececda1063c11678849391802
+  y = -111
+  height = 219
+}
+

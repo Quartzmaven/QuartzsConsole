@@ -1,0 +1,181 @@
+type = menu
+
+customization-meta {
+  identifier = minecraftstore1
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/store.png
+  orientation = mid-centered
+  x = -141
+  width = 282
+  action = addtexture
+  actionid = 063ad9a0-57e1-42cc-9e84-9076c56d8af61684655080349
+  y = -71
+  height = 201
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 1.0
+  source = &8Downloadable Content Offers
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 220
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c5d8d740-ac2c-4490-959a-d196703dc2d01684655567885
+  y = 127
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;ms-ge%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Graphical Enhancements                          
+  loopbackgroundanimations = true
+  hoverlabel = &eGraphical Enhancements                          
+  x = 199
+  width = 242
+  action = addbutton
+  actionid = 1144525e-f501-4fce-98a0-a559630084c31684655635538
+  y = 142
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;ms-tp%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Texture Packs                                      
+  loopbackgroundanimations = true
+  hoverlabel = &eTexture Packs                                      
+  x = 199
+  width = 242
+  action = addbutton
+  actionid = 31c335c9-4fbf-4ea6-9cf1-370af17b850a1684656110966
+  y = 167
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;store-mappacks%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Map Packs                                            
+  loopbackgroundanimations = true
+  hoverlabel = &eMap Packs                                            
+  x = 199
+  width = 242
+  action = addbutton
+  actionid = 2e603cb9-a743-4fc0-988c-06fcc0ff25f51684656116859
+  y = 192
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;store-tutorialworldpacks%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Tutorial World Packs                               
+  loopbackgroundanimations = true
+  hoverlabel = &eTutorial World Packs                               
+  x = 199
+  width = 242
+  action = addbutton
+  actionid = 75d4f4e2-2fd7-4d69-9346-b6cdd2f4cf081684656151195
+  y = 217
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = baab9fa9-50f3-4c03-b617-1f524d8247471684656663901
+  y = 0
+  height = 360
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 24df49bc-e3a5-44e1-a8dc-5231221bcfab1684656663901
+  y = -177
+  height = 353
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;blogornewsorrandom%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 199
+  width = 242
+  action = addbutton
+  actionid = 0f76b574-77c6-459e-90a8-a633296767cd1690950381757
+  y = 242
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://pastebin.com/0ftcGsaW
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = 205
+  width = 231
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1779043a-02aa-4e53-83db-b786e989dcab1690950467791
+  y = 248
+  alignment = left
+  height = 14
+}
+

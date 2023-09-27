@@ -1,0 +1,64 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_435
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel04.png
+  orientation = top-left
+  x = 120
+  width = 401
+  action = addtexture
+  actionid = 522a9fdc-35cb-492b-99af-5006870063081691724643506
+  y = 255
+  height = 55
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 587d9e9c-1afe-4f37-ad67-da66c1bd90b11678763707345
+  y = -175
+  height = 353
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #ffffff
+  shadow = true
+  splashfilepath = config/fancymenu/text/tips.txt
+  rotation = 0.0
+  scale = 1.5
+  refresh = true
+  bouncing = false
+  vanilla-like = false
+  x = -43
+  actionid = 4fbe098b-982b-4b98-b4ea-f202d3159d1a1691724643505
+  action = addsplash
+  y = 83
+}
+

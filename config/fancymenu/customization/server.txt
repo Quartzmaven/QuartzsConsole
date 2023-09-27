@@ -1,0 +1,136 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_412
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = -112
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=400382%
+  width = 224
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  path = resources/uistuff/panel04.png
+  orientation = top-left
+  x = 120
+  width = 401
+  action = addtexture
+  actionid = 341a9941-c697-4dbf-be7d-ec271cb127571691724675130
+  y = 232
+  height = 55
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 6c86bd47-2b3b-4dfc-b8d9-fd62cee5330f1678798661771
+  y = -175
+  height = 353
+}
+
+customization {
+  path = resources/tooltips/overlay-2.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 5d5c84ed-7f88-40c2-b04c-e80babf6485e1681388569379
+  y = 0
+  height = 360
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = %n%{"placeholder":"playername"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 426
+  width = 174
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 889285ef-a92c-4176-a74c-89035ca50f991680957553046
+  y = 322
+  alignment = right
+  height = 32
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #ffffff
+  shadow = true
+  splashfilepath = config/fancymenu/text/tips.txt
+  rotation = 0.0
+  scale = 1.5
+  refresh = true
+  bouncing = false
+  vanilla-like = false
+  x = -43
+  actionid = 8571bc3c-f259-4848-915b-a52f79507d081691724675130
+  action = addsplash
+  y = 60
+}
+
+customization {
+  orientation = bottom-left
+  name = loadingbar_0912
+  x = 160
+  width = 320
+  actionid = 1b7ec486-c5ac-4daa-b567-60f455faadd91691724722405
+  action = addanimation
+  y = -165
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffffff
+  shadow = true
+  rotation = 0.0
+  scale = 0.7
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  x = 192
+  actionid = 3ae9e3fe-2468-4ff7-9e78-2c49f612faff1691724738455
+  action = addsplash
+  y = 186
+  text = Loading spawn area
+}
+

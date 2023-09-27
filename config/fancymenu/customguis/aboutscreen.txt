@@ -1,0 +1,3 @@
+identifier = aboutscreen
+title = 
+allowesc = true

@@ -1,0 +1,3 @@
+identifier = minecraftstore1
+title = 
+allowesc = true

@@ -1,0 +1,3 @@
+identifier = loadinggui069
+title = loadinggui
+allowesc = true

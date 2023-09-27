@@ -1,0 +1,3 @@
+identifier = store-tutorialworldpacks
+title =
+allowesc = true

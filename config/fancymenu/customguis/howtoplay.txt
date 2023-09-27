@@ -1,0 +1,3 @@
+identifier = howtoplay
+title = 
+allowesc = true

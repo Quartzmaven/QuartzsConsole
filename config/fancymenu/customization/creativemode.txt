@@ -1,0 +1,115 @@
+type = menu
+
+customization-meta {
+  identifier = creativemode
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = d3a59154-eba1-4ad8-b0e9-e96c496b71f81679124036064
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 122
+  width = 194
+  action = addtexture
+  actionid = 7ac68e89-1144-491a-a9fd-24df2b9916ed1679129733553
+  y = 91
+  height = 219
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = config/fancymenu/text/creativemode.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 129
+  width = 169
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0995547b-5b61-4dc6-856f-f2b7e3ef66a01679124036064
+  y = 97
+  alignment = left
+  height = 195
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 292
+  width = 18
+  action = addtexture
+  actionid = 7d617e82-fc8c-4aca-a7b9-e76b334c85591679124036064
+  y = 291
+  height = 15
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 274
+  width = 18
+  action = addtexture
+  actionid = b137682f-e41a-4dba-bfe7-73cf869194871679124036064
+  y = 291
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  advanced_height = 200
+  path = resources/uistuff/creative-inventory.png
+  orientation = top-left
+  x = 328
+  width = 210
+  action = addtexture
+  actionid = f363bd8a-656f-4ca2-9cc1-01ace4517cb71679130461569
+  y = 101
+  advanced_width = 210
+  height = 200
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 19bdeda3-08b4-4f8f-850f-41c30c0b3b061690988886821
+  y = 0
+  height = 360
+}
+

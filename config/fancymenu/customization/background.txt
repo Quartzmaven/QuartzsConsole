@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_424
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel04.png
+  orientation = top-left
+  x = 120
+  width = 401
+  action = addtexture
+  actionid = e824108f-af68-490f-afc5-e541107cc69f1691724497677
+  y = 255
+  height = 55
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = b068262f-1372-4b3e-9a4e-24477ac1b0551678763597857
+  y = -175
+  height = 353
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffffff
+  shadow = true
+  rotation = 0.0
+  scale = 0.4
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  x = 172
+  actionid = 0ec908c6-64e4-4d97-9afc-9e565e6a1b471680841421856
+  action = addsplash
+  y = 186
+  text = Finalizing
+}
+
+customization {
+  path = resources/uistuff/image2.png
+  orientation = top-left
+  x = 206
+  width = 229
+  action = addtexture
+  actionid = cded410e-f959-4abc-b9a7-2cbdc4328b071681378126384
+  y = 150
+  height = 29
+}
+
+customization {
+  orientation = bottom-left
+  name = loadingbar_0912
+  x = 160
+  width = 320
+  actionid = a5935d84-2fcb-4b42-91ea-95ed7d62fc761691724497677
+  action = addanimation
+  y = -165
+  height = 10
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #ffffff
+  shadow = true
+  splashfilepath = config/fancymenu/text/tips.txt
+  rotation = 0.0
+  scale = 1.5
+  refresh = true
+  bouncing = false
+  vanilla-like = false
+  x = -43
+  actionid = 0f98a88a-553c-42a5-885a-f7f6d3e46bf61691724497677
+  action = addsplash
+  y = 83
+}
+

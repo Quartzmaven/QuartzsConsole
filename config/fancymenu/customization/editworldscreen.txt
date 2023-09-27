@@ -1,0 +1,60 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_524
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/creationscreen.png
+  orientation = mid-centered
+  x = -120
+  width = 241
+  action = addtexture
+  actionid = cbb015e5-0865-44c5-923b-9e5c26af85eb1679401049165
+  y = -173
+  height = 276
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = mid-centered
+  x = -110
+  width = 220
+  action = addtexture
+  actionid = d0aadeba-2ec3-4bf5-8278-3ee27e5b28221679401049165
+  y = -164
+  height = 253
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 807c5b73-d006-4405-888e-945a339cfc4b1681388866113
+  y = 0
+  height = 360
+}
+

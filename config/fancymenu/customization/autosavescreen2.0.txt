@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = autosavescreen
+  randomgroup = 1
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:00ffb29f-d377-4f96-9255-a426c1a095991680872620661] = autosave_moment:104
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.class_442%btnaction_splitter_fm%
+  x = 223
+  width = 100
+  action = addbutton
+  actionid = ef037ddd-dd91-483f-a4ca-62a5710c37aa1679017838816
+  y = 135
+  label = ok
+  height = 20
+}
+

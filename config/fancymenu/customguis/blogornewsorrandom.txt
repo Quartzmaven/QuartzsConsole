@@ -1,0 +1,3 @@
+identifier = blogornewsorrandom
+title = 
+allowesc = true

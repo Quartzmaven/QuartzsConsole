@@ -1,0 +1,213 @@
+type = menu
+
+customization-meta {
+  identifier = ms-tp
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 316
+  width = 181
+  action = addtexture
+  actionid = fbe80270-ac25-4861-a6d1-e0f037ef05401684666894815
+  y = 96
+  height = 209
+}
+
+customization {
+  path = resources/uistuff/store.png
+  orientation = top-left
+  x = 130
+  width = 191
+  action = addtexture
+  actionid = dda42961-1e2d-429e-9ca4-5c311e5ce91d1684666894816
+  y = 89
+  height = 222
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.7
+  source =  %n% &2&lFestive Mashup Pack%n% Map ported by ChelloVibes%n% Textures ported by pastelbranches%n%%n% --------------------------------%n%%n% &c&lSuper Mario Mashup Pack%n% Both map and textures ported by%n% CHSherrill. %n%%n% Note: Modified arrangement of%n% paintings to match Wii U Edition.%n%%n% --------------------------------%n%%n% &6&lCity Texture Pack%n% Textures ported by Ultmate_Mario%n%%n% --------------------------------%n%%n% &9&lPlastic Texture Pack%n%%n% &lMashup of both existing%n% &lported textures from%n%%n% Ultimate_Mario%n% Jberry29%n%%n% &4I know, it's literally the same%n% &4but most of it were different.%n%%n% &lOld villager textures%n% &lported from%n%%n% Feportal's 1.12 Version%n%%n% --------------------------------%n% %n% &6&lGreek Mythology Mash-up Pack%n% Textures ported by bathtubfulloftoast%n%%n% &n&oTextures incomplete.%n% &n&oMissing supported 1.19 textures.%n% %n% --------------------------------%n%%n%%n% The end.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 329
+  width = 151
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1ec1b4f1-ecef-400f-83fe-fbbd675827c31684666894815
+  y = 107
+  alignment = centered
+  height = 189
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://cdn.discordapp.com/attachments/1109802079184232468/1109803705265553468/Festive.zip%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Festive                           
+  loopbackgroundanimations = true
+  hoverlabel = &eFestive                           
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = fb06cb82-57b9-49fd-8f19-7d0d054be6a81684666894815
+  y = 172
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://cdn.discordapp.com/attachments/1109802079184232468/1109802909316698214/City.zip%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = City                                
+  loopbackgroundanimations = true
+  hoverlabel = &eCity                                
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = a4ac98dc-be31-41ae-beb5-67d4de6545c61684666894815
+  y = 147
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://cdn.discordapp.com/attachments/1109802079184232468/1109802151594692698/Plastic.zip%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Plastic                            
+  loopbackgroundanimations = true
+  hoverlabel = &ePlastic                            
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = eacc845c-7e01-4f27-8290-5dab2ce5526e1684666894815
+  y = 122
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 1.0
+  source = &8Downloadable Content Offers
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9a4b01b9-ebfe-4a66-89d6-bef343c299981684666894816
+  y = 107
+  alignment = centered
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Greek Mythology                
+  loopbackgroundanimations = true
+  hoverlabel = &2&lCOMING SOON!
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = c25acc21-b581-49af-a06e-046a3189e38b1684667216759
+  y = 197
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = a7afa6af-a56d-45b7-a21b-5ce34ca1e4de1686973180370
+  y = -177
+  height = 353
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 5c90bc68-c9c3-4c99-bc23-35d26fb829b41686973180370
+  y = 0
+  height = 360
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.5
+  source = &8Buttons will open a web browser...
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 146
+  width = 156
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 857ce416-1145-4bde-a34e-6330221fef7c1687943014902
+  y = 224
+  alignment = left
+  height = 14
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.8
+  source = &8Developer was currently lazy to %n%&8create GUIs at the moment.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 146
+  width = 148
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 41f12318-0257-430e-9645-cbaf0d666a681687943081617
+  y = 230
+  alignment = left
+  height = 40
+}
+

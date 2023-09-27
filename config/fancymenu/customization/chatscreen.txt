@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_408
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/faketooltips/brexit.png
+  orientation = top-left
+  x = 385
+  width = 65
+  action = addtexture
+  actionid = 9f5be474-63aa-4a9f-89f7-70a6b035fc991678801181549
+  y = 237
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/faketooltips/y-send.png
+  orientation = top-left
+  x = 427
+  width = 48
+  action = addtexture
+  actionid = 74e32a7e-072a-4ff6-9069-48b22620c5991678801253623
+  y = 237
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/faketooltips/key-type.png
+  orientation = top-left
+  x = 357
+  width = 41
+  action = addtexture
+  actionid = f27c7632-f64d-4c78-9c93-b0f95cbc7aaa1678848485290
+  y = 237
+  height = 20
+}
+

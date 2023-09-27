@@ -1,0 +1,415 @@
+type = menu
+
+customization-meta {
+  identifier = store-mappacks
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture_night.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/storepanel04.png
+  orientation = top-left
+  x = 58
+  width = 262
+  action = addtexture
+  actionid = 497b1815-db84-4889-96af-0aee93a272a81686973550723
+  y = 63
+  height = 61
+}
+
+customization {
+  path = resources/uistuff/storepanel04.png
+  orientation = top-left
+  x = 58
+  width = 262
+  action = addtexture
+  actionid = b71c1450-754f-457c-9469-f5d05d76ac561686973630521
+  y = 127
+  height = 61
+}
+
+customization {
+  path = resources/uistuff/storepanel04.png
+  orientation = top-left
+  x = 58
+  width = 262
+  action = addtexture
+  actionid = 64eaf20c-de42-4af0-a2bc-f5a6f4d4318e1686973633885
+  y = 191
+  height = 61
+}
+
+customization {
+  path = resources/uistuff/storepanel04.png
+  orientation = top-left
+  x = 58
+  width = 262
+  action = addtexture
+  actionid = 1c307e3a-5f63-4dee-accd-3f065098f1271686973679346
+  y = 255
+  height = 61
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.5
+  source = Glide
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 65
+  width = 51
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6b169631-4d49-454c-9e60-6626e8d548481686973701729
+  y = 109
+  alignment = centered
+  height = 8
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.5
+  source = Tumble
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 65
+  width = 51
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9f4170e8-6936-437e-ace6-3a10ce86ff401686973722809
+  y = 173
+  alignment = centered
+  height = 8
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.5
+  source = Battle
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 65
+  width = 51
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dfd561f1-7acd-4bc4-9ba6-1730ef72e2221686973770439
+  y = 237
+  alignment = centered
+  height = 8
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.5
+  source = Misc.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 65
+  width = 51
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 34aa8f1d-eb41-45f1-adf4-2d67ee8de0c71686973782273
+  y = 301
+  alignment = centered
+  height = 8
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.85
+  source = &8All of the Glide Mini Game maps.%n%&8Explore Glide maps with your elytra!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 185
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4163c305-d77c-4dd9-a4f8-961d75cde6a71686973798777
+  y = 71
+  alignment = left
+  height = 46
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.85
+  source = &8All of the Tumble Mini Game maps.%n%&8Drop other players with the Shovel!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 188
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = faf75298-1110-478c-90e0-a1666c65c4031686974023264
+  y = 135
+  alignment = left
+  height = 46
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = &eEnter
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://drive.google.com/drive/folders/18zZPKt6-uC1YY0U5AEKauaWjfNJBXz-E?usp=drive_link%btnaction_splitter_fm%
+  x = 126
+  width = 100
+  action = addbutton
+  actionid = 7acaa7b9-0b81-44cc-a5d4-8f668613295e1686974186567
+  y = 96
+  label = Enter
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = &eEnter
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://drive.google.com/drive/folders/1wKe5U-Dndw8ESoXeb9L-sXFMBEj6gT_B?usp=drive_link%btnaction_splitter_fm%
+  x = 125
+  width = 100
+  action = addbutton
+  actionid = b9ffe0e0-1414-462d-aa93-2316a38792921686974329988
+  y = 160
+  label = Enter
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.85
+  source = &8All of the Battle Mini Game maps.%n%&8Compete with other players!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 185
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 16bf35d0-d3e4-49ce-a0a2-790fc26741801686974345053
+  y = 197
+  alignment = left
+  height = 46
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = &eEnter
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://drive.google.com/drive/folders/1lt8da5bMwkH-FUJJdH-2s20Ig70IC2KP?usp=drive_link%btnaction_splitter_fm%
+  x = 125
+  width = 100
+  action = addbutton
+  actionid = fac16ae8-cf6c-496e-a284-48e9c4bd7b9d1686974643019
+  y = 223
+  label = Enter
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 0.85
+  source = &8All ported DLC maps go here.%n%&8Includes the Mini Game lobby!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 185
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 04ac058a-74c4-49c5-aa73-cb4ef74de6f81686974651556
+  y = 263
+  alignment = left
+  height = 46
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = &eEnter
+  restartbackgroundanimations = true
+  x = 125
+  width = 100
+  action = addbutton
+  actionid = 18e0c1a8-c602-4b38-b1a2-597d20c7b8561686974716569
+  y = 289
+  label = Enter
+  height = 20
+}
+
+customization {
+  path = resources/uistuff/glide-icon.png
+  orientation = top-left
+  x = 74
+  width = 32
+  action = addtexture
+  actionid = e6856cbc-0acf-4f78-8608-08e650d25f641687137325166
+  y = 74
+  height = 32
+}
+
+customization {
+  path = resources/uistuff/battle-icon.png
+  orientation = top-left
+  x = 74
+  width = 32
+  action = addtexture
+  actionid = 9891279f-e1b0-4454-950a-4c6419770ca81687137369162
+  y = 202
+  height = 32
+}
+
+customization {
+  path = resources/uistuff/tumble-icon.png
+  orientation = top-left
+  x = 74
+  width = 32
+  action = addtexture
+  actionid = 019daf26-9f0e-4cb1-81ad-eee5386415381687137419378
+  y = 138
+  height = 32
+}
+
+customization {
+  path = resources/uistuff/misc-icon.png
+  orientation = top-left
+  x = 74
+  width = 32
+  action = addtexture
+  actionid = 1c0a75e4-0b9e-4564-93db-b1d464f2bb5b1687137453547
+  y = 266
+  height = 32
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.5
+  source = Map Packs
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 220
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e98af2a6-6727-4848-a484-cebe082d35911687942662055
+  y = 28
+  alignment = centered
+  height = 40
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 32400118-5a6f-43f6-ac24-e3b93c6c00681687942741409
+  y = 0
+  height = 360
+}
+
+customization {
+  path = resources/uistuff/store.png
+  orientation = top-left
+  x = 325
+  width = 235
+  action = addtexture
+  actionid = cd95f120-ab24-4e9b-b6eb-faafe441b6371691295255508
+  y = 119
+  height = 142
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = The first 3 map packs will open a web browser.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 180
+  width = 280
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 47ad4401-8e97-48eb-afff-5561e5146a781687942811613
+  y = 45
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  name = minigamecontent
+  x = 338
+  width = 209
+  actionid = c02376f2-75ae-4e31-854d-99746c7260401691295185735
+  action = addslideshow
+  y = 129
+  height = 118
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &lImage Preview
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 340
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = cf9a25bf-a613-4bc2-80e1-32d414e9c06d1691295403620
+  y = 107
+  alignment = centered
+  height = 14
+}
+

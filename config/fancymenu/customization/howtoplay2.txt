@@ -1,0 +1,222 @@
+type = menu
+
+customization-meta {
+  identifier = howtoplay2
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -96
+  width = 190
+  action = addtexture
+  actionid = 594775f3-b19a-486f-a85b-8db0230634801678965170532
+  y = -63
+  height = 179
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;glideminigame%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/glideminigame-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 29f0cb03-2686-4cc0-8c1d-a114c5aa7b861678965170532
+  y = -53
+  backgroundnormal = config/fancymenu/buttons/howtoplay/glideminigame.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;creativemode%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/creativemode-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 1baab1a6-d1a1-4237-a354-49ae537779391678965170532
+  y = -30
+  backgroundnormal = config/fancymenu/buttons/howtoplay/creativemode.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 0ca99b32-2b44-4927-acde-b84ab3fa9d391678965170532
+  y = -7
+  label = Inventory
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 4db2f865-cc81-4318-a02c-a2709b37d0111678965170532
+  y = 16
+  label = Chests
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 28f917b5-16c4-4d48-bce8-518117f9feec1678965170532
+  y = 39
+  label = Crafting
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = a83c3063-a2dc-48cc-9fa2-795be7fa59941678965170532
+  y = 62
+  label = Furnace
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = It only ends in the Creative Mode part, rest of the buttons isn't functional.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -238
+  width = 477
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c4bdead6-394d-437a-8d1a-02d63ae8f1f11679130726906
+  y = -58
+  alignment = centered
+  height = 40
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 383
+  width = 18
+  action = addtexture
+  actionid = 03622bbf-00a2-48f5-a9ab-4cf4e59de5011678965170532
+  y = 270
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay3%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 383
+  width = 16
+  action = addbutton
+  actionid = 62858513-0fe3-4e1f-bdc1-503a0abb357a1678965170532
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 365
+  width = 18
+  action = addtexture
+  actionid = ebfe4456-d344-4520-9eeb-d89619e5cdd81678966359969
+  y = 270
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 365
+  width = 16
+  action = addbutton
+  actionid = 659c9f13-bc96-4ebd-91b0-8cb0b52e94d51678966359969
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = cd00e1ad-db9d-4c7a-be77-17553a0196e01681380857175
+  y = 0
+  height = 360
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 87bf54b0-455e-44d4-8207-4f81edb086e91681380907529
+  y = 5
+  height = 354
+}
+

@@ -1,0 +1,3 @@
+identifier = autosavescreen
+title = 
+allowesc = true

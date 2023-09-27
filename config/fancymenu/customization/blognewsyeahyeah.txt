@@ -1,0 +1,136 @@
+type = menu
+
+customization-meta {
+  identifier = blogornewsorrandom
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture_night.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel03.png
+  orientation = top-left
+  x = 190
+  width = 260
+  action = addtexture
+  actionid = 36980ae8-1cfc-4cfa-a352-5e10b58789141690952594543
+  y = 101
+  height = 225
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 197
+  width = 247
+  action = addtexture
+  actionid = 05b606a0-8cea-46c8-8cda-29a6b0ee29b01690952496581
+  y = 108
+  height = 188
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 9a4af11a-d72f-4295-89c3-a4380283220b1690952639305
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://pastebin.com/0ftcGsaW
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = 159
+  width = 323
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 17f30821-0837-47d9-b580-991b4ac6ac6b1690952642524
+  y = 87
+  alignment = centered
+  height = 12
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 0ed8e2af-0dcd-4fb2-8cb3-3130c97661501690952772702
+  y = -177
+  height = 353
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = f817eb61-29a5-48f5-a69e-3cfd316d652a1690952772702
+  y = 0
+  height = 360
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;minecraftstore1%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Back To Store
+  loopbackgroundanimations = true
+  hoverlabel = &eBack To Store
+  x = 197
+  width = 247
+  action = addbutton
+  actionid = 6b044f3f-6a69-4205-be5f-936f91d8a0741690952824111
+  y = 300
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://pastebin.com/CYAtAy70
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = 202
+  width = 230
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 76a69acd-f785-467a-87c3-7472ee7a53bc1690952971984
+  y = 113
+  alignment = left
+  height = 176
+}
+

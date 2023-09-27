@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_4189
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = mid-centered
+  x = -165
+  width = 331
+  action = addtexture
+  actionid = fbcf7556-3a75-450f-adf0-ececda1063c11678849391802
+  y = -111
+  height = 219
+}
+

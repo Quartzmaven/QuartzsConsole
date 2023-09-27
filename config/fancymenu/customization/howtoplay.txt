@@ -1,0 +1,182 @@
+type = menu
+
+customization-meta {
+  identifier = howtoplay
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 0c0b03be-4077-49f5-be82-3b1aa6ef20901678936226626
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -96
+  width = 190
+  action = addtexture
+  actionid = 6eb3f172-66a1-4b4f-ba93-cfa5372b245c1678937539496
+  y = -63
+  height = 179
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;whatsnew%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/whatsnew-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = e409ab54-628c-4ceb-8be4-bae0c6d4c3971678936267459
+  y = -53
+  backgroundnormal = config/fancymenu/buttons/howtoplay/whatsnew.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;basics%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/basics-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = f7fda209-708c-44aa-8ac2-052afe90f3bc1678936280127
+  y = -30
+  backgroundnormal = config/fancymenu/buttons/howtoplay/basics.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;multiplayer%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/multiplayer-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 81383a7c-c152-4279-88b8-d8743c86cd091678936353555
+  y = -7
+  backgroundnormal = config/fancymenu/buttons/howtoplay/multiplayer.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;hud%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/hud-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 0011f496-f019-4cf6-a40f-fe1ddffd198e1678936371704
+  y = 16
+  backgroundnormal = config/fancymenu/buttons/howtoplay/hud.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;tumbleminigame%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/tumbleminigame-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = e4a41575-99fa-4eec-8f3c-744cb9e4beb01678937623114
+  y = 62
+  backgroundnormal = config/fancymenu/buttons/howtoplay/tumbleminigame.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = false
+  buttonaction = opencustomgui;battleminigame%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/howtoplay/battleminigame-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 53b2c346-6b1c-4a6e-a9de-abd3ae2ef9ff1678937636685
+  y = 39
+  backgroundnormal = config/fancymenu/buttons/howtoplay/battleminigame.png
+  height = 20
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 383
+  width = 18
+  action = addtexture
+  actionid = 57625bbd-04cc-4a6b-bdd5-9e2d6eeac1f61678939430705
+  y = 270
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay2%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 383
+  width = 16
+  action = addbutton
+  actionid = 3ed74482-ed16-4713-be6a-22debdb598ca1678939468384
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 881cefc0-9841-4e2b-99c1-e81813942f091681380833215
+  y = 0
+  height = 360
+}
+

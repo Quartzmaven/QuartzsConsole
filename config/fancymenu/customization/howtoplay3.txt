@@ -1,0 +1,218 @@
+type = menu
+
+customization-meta {
+  identifier = howtoplay3
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 988c68ec-ae38-4e7f-aa56-c3d2823782471678965213868
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -96
+  width = 190
+  action = addtexture
+  actionid = ee2710b1-c59f-461d-b0dc-f89dca7f947a1678965213868
+  y = -63
+  height = 179
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 1a18738a-0470-41a1-859e-c5d6998feb4e1678965213868
+  y = -30
+  label = Brewing
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 9e6d5c82-555d-4820-83fa-5bf8f0344f201678965213868
+  y = -7
+  label = Enchantment
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = cd590788-918a-4570-9a09-63d51aa4996e1678965213868
+  y = 16
+  label = Crafting
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = f499aa27-e03c-4a38-a472-b6a96028ae861678965213868
+  y = 39
+  label = Anvil
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = eb9fcf37-46cb-4c36-be66-c343cc1589451678965365973
+  y = -53
+  label = Dispenser
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 7ccb01af-a2b9-4c3b-b3e5-76ef8b0174e01678965391653
+  y = 62
+  label = Farming Animals
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay4%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 383
+  width = 16
+  action = addbutton
+  actionid = 1ca5e827-d1e7-41ae-935c-0309e34e1b4b1678966874699
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay2%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 365
+  width = 16
+  action = addbutton
+  actionid = 2fa3417a-fb84-4b43-b1ba-5105e359c8ed1678966874699
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 365
+  width = 18
+  action = addtexture
+  actionid = 940ddffb-e6c8-4975-ad4a-6b994feef4bd1678966874699
+  y = 270
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 383
+  width = 18
+  action = addtexture
+  actionid = e36bf306-a80b-4d90-82aa-5c03a410588d1678966874699
+  y = 270
+  height = 15
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = It only ends in the Creative Mode part, rest of the buttons isn't functional.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -238
+  width = 477
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 64ab9bab-e7f6-4c0c-815c-a28842a7a2451679130740625
+  y = -58
+  alignment = centered
+  height = 16
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 956d23e4-bcf5-45c8-9125-8c418bafdeeb1681381036452
+  y = 0
+  height = 360
+}
+

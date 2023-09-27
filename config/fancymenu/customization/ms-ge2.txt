@@ -1,0 +1,201 @@
+type = menu
+
+customization-meta {
+  identifier = ms-ge2
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 316
+  width = 181
+  action = addtexture
+  actionid = c1460551-ff8c-4482-a549-068bf7f23a0a1684661525311
+  y = 96
+  height = 209
+}
+
+customization {
+  path = resources/uistuff/store.png
+  orientation = top-left
+  x = 130
+  width = 191
+  action = addtexture
+  actionid = 9115a28b-fd9e-462c-8dd8-9531b2986e181684661525311
+  y = 89
+  height = 222
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = &eDownload
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.planetminecraft.com/texture-pack/legacy-imitation-utility-potions/%btnaction_splitter_fm%
+  x = 330
+  width = 151
+  action = addbutton
+  actionid = 4eb14a14-ed40-4b15-be8d-7daee30bf22b1684661525311
+  y = 279
+  label = Download
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source =  &lAuthor: &rSnowyBoi64 %n% (PlanetMinecraft)%n% %n% This pack adds the old legacy %n% console potions into %n% modern Minecraft!%n% %n% These are for utility and %n% that extra pinch of nostalgia %n% in your Minecraft experience.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 330
+  width = 151
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9285c6f8-08b3-471a-9b4d-03fa6014c71c1684661525311
+  y = 171
+  alignment = left
+  height = 85
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Controller Tooltips Pack       
+  loopbackgroundanimations = true
+  hoverlabel = &2&lCOMING SOON!
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = 711523e5-99bc-4035-8d3c-91216a33d6d81684661525311
+  y = 197
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;ms-ge3%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Panoramas                        
+  loopbackgroundanimations = true
+  hoverlabel = &ePanoramas                        
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = d2130a59-bd14-42a8-b533-875e7ae7d91b1684661525311
+  y = 172
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;some.menu.identifier%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Indicator Potions                
+  loopbackgroundanimations = true
+  hoverlabel = &eIndicator Potions                
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = 5e4566c6-216f-4412-8d3f-6320da64354c1684661525311
+  y = 147
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 1.0
+  source = &8Downloadable Content Offers
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 45e4a6d7-d109-46e5-b48a-6334605ea1ce1684661525311
+  y = 107
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;ms-ge%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Blue Water                        
+  loopbackgroundanimations = true
+  hoverlabel = &eBlue Water                        
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = c5625945-b2dc-4482-ab81-a6bc04db96f71684661525311
+  y = 122
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  path = config/fancymenu/storeimages/potions.png
+  orientation = top-left
+  x = 364
+  width = 90
+  action = addtexture
+  actionid = 7705de2a-ce04-452b-a9f0-975687911c2a1684662253977
+  y = 124
+  height = 37
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 82d79b50-4a2a-4d6d-8471-67b68af439b11684662976087
+  y = -177
+  height = 353
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = ebb12385-96df-41a2-8838-e36d0dc8706a1684662976087
+  y = 0
+  height = 360
+}
+

@@ -1,0 +1,200 @@
+type = menu
+
+customization-meta {
+  identifier = ms-ge3
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 316
+  width = 181
+  action = addtexture
+  actionid = b0859235-6f53-4f2b-8e6f-e41f62954c461684662380948
+  y = 96
+  height = 209
+}
+
+customization {
+  path = resources/uistuff/store.png
+  orientation = top-left
+  x = 130
+  width = 191
+  action = addtexture
+  actionid = 666cd772-0113-4ae2-9a49-5ffdad9f6dc21684662380948
+  y = 89
+  height = 222
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  hoverlabel = &eDownload
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.dropbox.com/scl/fo/c69y4l7vk74jinrh629xw/h?dl=0&rlkey=56hnmz3p3dohe1nc6qpu5xkxu%btnaction_splitter_fm%
+  x = 330
+  width = 151
+  action = addbutton
+  actionid = 34f595bd-90c1-42db-b0b1-b9d32b327b3c1684662380947
+  y = 279
+  label = Download
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source =  &lAuthor: &rQuartzmaven, MC4f, and%n% TheMinecraftArchitect%n% %n% All panoramas including default%n% versions available for download!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 330
+  width = 151
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = db62680a-aad8-4be1-9c37-5ba87ada57d91684662380948
+  y = 190
+  alignment = left
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Controller Tooltips Pack       
+  loopbackgroundanimations = true
+  hoverlabel = &2&lCOMING SOON!
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = 6524e43c-ff66-42d9-a90b-01d126947d191684662380948
+  y = 197
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Panoramas                        
+  loopbackgroundanimations = true
+  hoverlabel = &ePanoramas                        
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = a7bdc9c9-e344-4ede-b4c1-0d999e1796df1684662380948
+  y = 172
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;ms-ge2%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Indicator Potions                
+  loopbackgroundanimations = true
+  hoverlabel = &eIndicator Potions                
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = 72aed2c9-500e-480e-a297-4d588263a82d1684662380948
+  y = 147
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 1.0
+  source = &8Downloadable Content Offers
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 125
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5b9d5b98-f01d-4564-a8f7-c9f4bfb5048f1684662380948
+  y = 107
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;ms-ge%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/store/buttonprocess-store-hover.png
+  label = Blue Water                        
+  loopbackgroundanimations = true
+  hoverlabel = &eBlue Water                        
+  x = 144
+  width = 163
+  action = addbutton
+  actionid = d61de92c-b7bf-41e8-bf63-ca0bd38f51d71684662380948
+  y = 122
+  backgroundnormal = config/fancymenu/buttons/store/buttonprocess-store.png
+  height = 25
+}
+
+customization {
+  path = config/fancymenu/storeimages/panorama.png
+  orientation = top-left
+  x = 331
+  width = 152
+  action = addtexture
+  actionid = 8e0e2e1a-21ba-4803-b783-867c4ebca5141684662601383
+  y = 105
+  height = 81
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = deb0412a-27d2-4ae3-82f5-19a412fcf5311684662984258
+  y = -177
+  height = 353
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 40e4cc7c-9d6a-48ef-9bb0-6e4da6a77fdf1684662984258
+  y = 0
+  height = 360
+}
+

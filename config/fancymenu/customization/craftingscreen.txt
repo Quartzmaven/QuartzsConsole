@@ -1,0 +1,42 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_479
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=417451%
+  action = hidebutton
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 2c59aa7a-0422-4f4a-932e-908a3131e04a1678789290661
+  y = 5
+  height = 100
+}
+
+customization {
+  path = resources/tooltips/craftingtable.png
+  orientation = top-left
+  x = 0
+  width = 480
+  action = addtexture
+  actionid = efc157df-16aa-40e0-a1f6-cff95969118e1681452878427
+  y = 0
+  height = 270
+}
+

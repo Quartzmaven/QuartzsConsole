@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = basics
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 74f87237-9a5a-47eb-8b06-6f7bb78927c71679118990842
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/panel02.png
+  orientation = mid-centered
+  x = -182
+  width = 365
+  action = addtexture
+  actionid = e3d9ddf1-4198-4d5f-9643-0939c5b5b8d01679118990842
+  y = -63
+  height = 175
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = config/fancymenu/text/basics.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 151
+  width = 337
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 26dbf8fb-263d-4615-a13f-48bb5aeb8b171679118990842
+  y = 125
+  alignment = left
+  height = 154
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 459
+  width = 18
+  action = addtexture
+  actionid = 4a7eade0-af84-423e-a170-3bd584a405d01679122706962
+  y = 268
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 477
+  width = 18
+  action = addtexture
+  actionid = bdf977dc-5cc4-48fd-ab0f-72c64593d2d91679122706962
+  y = 268
+  height = 15
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 8eecb5f9-67d2-4b09-adac-c6b731c85c021690988787577
+  y = 0
+  height = 360
+}
+

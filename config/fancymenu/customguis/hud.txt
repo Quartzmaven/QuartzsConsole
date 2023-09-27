@@ -1,0 +1,3 @@
+identifier = hud
+title = 
+allowesc = true

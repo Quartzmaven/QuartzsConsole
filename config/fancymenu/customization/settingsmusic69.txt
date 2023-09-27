@@ -1,0 +1,260 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_443
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:98723270-c33a-40ae-8b9e-4638e828d37a1690879318591] = 
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345220%
+  orientation = mid-right
+  x = -406
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=345220%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505220%
+  orientation = mid-left
+  x = 234
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=505220%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345286%
+  orientation = top-centered
+  x = -86
+  action = movebutton
+  y = 248
+}
+
+customization {
+  identifier = %id=345286%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = top-centered
+  x = -86
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=345154%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505198%
+  orientation = top-right
+  x = -406
+  action = movebutton
+  y = 116
+}
+
+customization {
+  identifier = %id=505198%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345198%
+  orientation = bottom-centered
+  x = -86
+  action = movebutton
+  y = -266
+}
+
+customization {
+  identifier = %id=345198%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400330%
+  orientation = top-right
+  x = -406
+  action = movebutton
+  y = 314
+}
+
+customization {
+  identifier = %id=400330%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345264%
+  orientation = top-left
+  x = 234
+  action = movebutton
+  y = 226
+}
+
+customization {
+  identifier = %id=345264%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345308%
+  orientation = mid-left
+  x = 234
+  action = movebutton
+  y = 90
+}
+
+customization {
+  identifier = %id=345308%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505308%
+  orientation = mid-right
+  x = -406
+  action = movebutton
+  y = 112
+}
+
+customization {
+  identifier = %id=505308%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345176%
+  orientation = top-centered
+  x = -86
+  action = movebutton
+  y = 50
+}
+
+customization {
+  identifier = %id=345176%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505242%
+  orientation = bottom-right
+  x = -406
+  action = movebutton
+  y = -156
+}
+
+customization {
+  identifier = %id=505242%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505176%
+  orientation = top-right
+  x = -406
+  action = movebutton
+  y = 72
+}
+
+customization {
+  identifier = %id=505176%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345242%
+  orientation = bottom-left
+  x = 234
+  action = movebutton
+  y = -178
+}
+
+customization {
+  identifier = %id=345242%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  path = resources/uistuff/settingsimage.png
+  orientation = mid-centered
+  x = -102
+  width = 204
+  action = addtexture
+  actionid = d5d0447d-db5e-487b-81d8-c1a3bca478981678757241575
+  y = -164
+  height = 329
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 06d78f2a-3ed8-410e-b310-06090f09edfe1681380794494
+  y = 0
+  height = 360
+}
+

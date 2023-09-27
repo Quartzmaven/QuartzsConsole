@@ -1,0 +1,3 @@
+identifier = whatsnew
+title = 
+allowesc = true

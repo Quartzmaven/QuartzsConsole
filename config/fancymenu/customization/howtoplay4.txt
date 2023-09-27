@@ -1,0 +1,218 @@
+type = menu
+
+customization-meta {
+  identifier = howtoplay4
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = c181185c-b48d-4183-9e50-9ac30e61bef01678965497465
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -96
+  width = 190
+  action = addtexture
+  actionid = 6a6cc79b-97a0-484a-97ab-ffb5584346a21678965497465
+  y = -63
+  height = 179
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 3ef8eb19-a819-4a4f-849e-fc37ac5b67961678965497465
+  y = 62
+  label = Banners
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 6febc130-4d2d-496f-a348-79195cafcaf81678965497465
+  y = 39
+  label = Fireworks
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 7bc8e052-c2bb-41df-9ef3-5a5607f7210e1678965497465
+  y = 16
+  label = Beacons
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 9b27a50d-a85f-430c-a96b-b94afe513eb31678965497465
+  y = -7
+  label = Horses
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = c314da4a-5619-4e87-84c7-8769d4f1020d1678965497465
+  y = -30
+  label = Trading
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 14fe1de6-c339-44e4-8393-3d0c9335ee321678965497465
+  y = -53
+  label = Breeding Animals
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay3%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 365
+  width = 16
+  action = addbutton
+  actionid = f08fcd0c-26b9-4a80-a31d-86db52f87a511678966946719
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay5%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 383
+  width = 16
+  action = addbutton
+  actionid = 6d424b43-8008-4a3d-8704-4a080c0326a81678966946719
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 383
+  width = 18
+  action = addtexture
+  actionid = 142c10e9-8125-420f-a5f7-a52dbfce71ac1678966946719
+  y = 270
+  height = 15
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 365
+  width = 18
+  action = addtexture
+  actionid = 7a4b6cdd-fab1-4172-9745-ed4eb01f190b1678966946719
+  y = 270
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = It only ends in the Creative Mode part, rest of the buttons isn't functional.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -238
+  width = 477
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f1bde16a-e895-4302-aefb-25c3472687d91679130749749
+  y = -58
+  alignment = centered
+  height = 14
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = a0ae4db6-6fdf-4500-8b91-531efffcb7921681381052269
+  y = 0
+  height = 360
+}
+

@@ -1,0 +1,139 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_440
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:eb7d7cc4-f1f3-4933-8be9-c565401b736b1680873173697] = 
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/uistuff/dark.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400262%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 92
+}
+
+customization {
+  identifier = %id=400262%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505190%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=345190%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=505166%
+  orientation = mid-left
+  x = 245
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=345166%
+  orientation = top-centered
+  x = -75
+  action = movebutton
+  y = 96
+}
+
+customization {
+  identifier = %id=505238%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 70
+}
+
+customization {
+  identifier = %id=345238%
+  orientation = top-left
+  x = 245
+  action = movebutton
+  y = 228
+}
+
+customization {
+  identifier = %id=505214%
+  orientation = mid-right
+  x = -395
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=345214%
+  orientation = bottom-right
+  x = -395
+  action = movebutton
+  y = -176
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 35edfa40-41af-441a-a414-c8d7fb93ef8f1678766580655
+  y = -176
+  height = 353
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -87
+  width = 174
+  action = addtexture
+  actionid = c3f0771c-8180-4ed0-88ec-3aef013cc5121678766534636
+  y = -94
+  height = 217
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 16e56315-7ca3-4b79-b2ea-adfdd6e03e321681388503231
+  y = 0
+  height = 360
+}
+

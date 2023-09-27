@@ -1,0 +1,38 @@
+type = menu
+
+customization-meta {
+  identifier = autosavescreen420
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title =       
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/faketooltips/a-select.png
+  orientation = top-left
+  x = 41
+  width = 44
+  action = addtexture
+  actionid = d95d452c-6cb2-4f66-8083-dcb8c4d5ec6e1678928604117
+  y = 317
+  height = 19
+}
+

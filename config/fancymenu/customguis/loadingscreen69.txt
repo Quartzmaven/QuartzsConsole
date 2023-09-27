@@ -1,0 +1,3 @@
+identifier = loadingscreen69
+title = 
+allowesc = true

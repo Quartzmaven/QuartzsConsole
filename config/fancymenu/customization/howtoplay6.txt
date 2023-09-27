@@ -1,0 +1,177 @@
+type = menu
+
+customization-meta {
+  identifier = howtoplay6
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = b5041f5f-dbcf-42b3-9742-eb8e7a104b351678965856710
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -96
+  width = 190
+  action = addtexture
+  actionid = 9107cf64-1b01-4d23-991b-d7d18ad9a7ce1678965856710
+  y = -63
+  height = 179
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = b92d1c4a-65f2-4f28-9ef5-b389c5a550dd1678965856710
+  y = 39
+  label = Host and Player Options
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 1ee18a8c-07e8-408c-aca6-9fb1dfb0cfa41678965856710
+  y = 16
+  label = Banning Levels
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = e35a4063-76c6-4f58-acf2-f073c3937b791678965856710
+  y = -7
+  label = Conduit
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = e55e198a-f8d0-4c99-bbc2-6bb849d1416d1678965856710
+  y = -30
+  label = Ocean Mobs
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 92207461-629e-4403-867b-a751eae0afc51678965856710
+  y = -53
+  label = Oceans
+  height = 20
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 384
+  width = 18
+  action = addtexture
+  actionid = 883fc96b-f80c-4001-990f-a7402897b74b1678967288321
+  y = 270
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay5%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 384
+  width = 16
+  action = addbutton
+  actionid = a53201c4-5bc8-4eda-95f1-e847133aa7f51678967288321
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = It only ends in the Creative Mode part, rest of the buttons isn't functional.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -238
+  width = 477
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 878d7796-8c16-4ad0-8c51-693decc4f3571679130771278
+  y = -58
+  alignment = centered
+  height = 13
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 26a923f1-7c79-4a10-9dc5-c01d1d4c1cf31681381085835
+  y = 0
+  height = 360
+}
+

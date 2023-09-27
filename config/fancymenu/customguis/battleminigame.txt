@@ -1,0 +1,3 @@
+identifier = battleminigame
+title = 
+allowesc = true

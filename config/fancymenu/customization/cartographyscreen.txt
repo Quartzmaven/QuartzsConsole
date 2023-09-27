@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3934
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/tooltips/utilityblocks.png
+  orientation = mid-centered
+  x = -240
+  width = 480
+  action = addtexture
+  actionid = fd02c51c-4f0d-4d57-b7c7-29b72d4cbda21681453188329
+  y = -135
+  height = 270
+}
+

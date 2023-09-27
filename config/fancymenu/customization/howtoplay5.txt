@@ -1,0 +1,218 @@
+type = menu
+
+customization-meta {
+  identifier = howtoplay5
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 2614e15b-76dc-4dda-a630-d5efd9c2a6391678965676813
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -96
+  width = 190
+  action = addtexture
+  actionid = ba03fe1e-8bb9-4b2b-baef-e477b3f275311678965676813
+  y = -63
+  height = 179
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 383
+  width = 18
+  action = addtexture
+  actionid = 90d83b7d-4d67-4772-a94a-be40aeda63a31678967089334
+  y = 270
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay6%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 383
+  width = 16
+  action = addbutton
+  actionid = 5c5aca9a-c85c-4518-90d9-3f002b33f82a1678967089334
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 806a0476-79bb-4bdc-afca-45d3aec5cc9d1678965676813
+  y = -53
+  label = Hoppers
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 557b9245-48cb-4c25-a286-94c9a4fe77301678965676813
+  y = -30
+  label = Droppers
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 4199acff-ee0c-49e4-8bd6-a9c3376710e61678965676813
+  y = -7
+  label = Nether Portal
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = f1ba1132-4cd1-4a5a-9dca-01636f7488f61678965676813
+  y = 16
+  label = The End
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 54cb6fb2-d41c-43ec-945f-0fd29291a16c1678965676813
+  y = 39
+  label = End Cities
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  x = -80
+  width = 161
+  action = addbutton
+  actionid = 71075f90-2abc-48e1-bd8e-97619c8348391678965676813
+  y = 62
+  label = Elytra
+  height = 20
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 365
+  width = 18
+  action = addtexture
+  actionid = d47182da-15ef-43ea-9db5-1a9635f4ec651678967089334
+  y = 270
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;howtoplay4%btnaction_splitter_fm%
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 365
+  width = 16
+  action = addbutton
+  actionid = dc8dff4a-e119-4b68-97fb-e622a0b637c11678967089334
+  y = 269
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 16
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = It only ends in the Creative Mode part, rest of the buttons isn't functional.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -238
+  width = 477
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e7c2539c-99f4-4a34-8353-2ff6aa1e6dfc1679130763568
+  y = -58
+  alignment = centered
+  height = 13
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = e4260aa9-141c-4e6c-9f38-7e0543da4f681681381071200
+  y = 0
+  height = 360
+}
+

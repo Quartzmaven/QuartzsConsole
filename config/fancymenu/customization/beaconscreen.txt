@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_466
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/tooltips/exit.png
+  orientation = top-left
+  x = 0
+  width = 480
+  action = addtexture
+  actionid = 6645ffea-b606-48db-bade-0866ea36adec1681452982746
+  y = 0
+  height = 270
+}
+

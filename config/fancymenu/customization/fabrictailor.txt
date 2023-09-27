@@ -1,0 +1,95 @@
+type = menu
+
+customization-meta {
+  identifier = org.samo_lego.fabrictailor.client.screen.SkinChangeScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel02.png
+  orientation = top-left
+  x = 39
+  width = 165
+  action = addtexture
+  actionid = 3e1ba598-8b18-4ddb-ad60-8544be997dc61678849891411
+  y = 25
+  height = 29
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = The skin packs are at ".minecraft\skinpacks\".
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 46
+  width = 149
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = acd31397-f6e7-4fd8-9c63-ad59c6c4a8401678849908151
+  y = 29
+  alignment = left
+  height = 6
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = Inside the folder contains a few skin packs.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 46
+  width = 152
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4c5ca2aa-0330-4505-9f09-11ad3a919cdc1678850081281
+  y = 36
+  alignment = left
+  height = 6
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = Simply drag and drop any skins from the folder...
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 46
+  width = 151
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 70c08d19-ad43-4d12-af6e-790e1269a8fd1678850110896
+  y = 43
+  alignment = left
+  height = 6
+}
+
+customization {
+  path = resources/tooltips/skin.png
+  orientation = top-left
+  x = 0
+  width = 480
+  action = addtexture
+  actionid = 6c35fb9b-3976-4c89-96df-f40b23b78bae1681996000268
+  y = -19
+  height = 270
+}
+

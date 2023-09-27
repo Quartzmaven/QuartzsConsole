@@ -1,0 +1,78 @@
+type = menu
+
+customization-meta {
+  identifier = hud
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 0a327a19-ebe0-40b1-b770-bf8e417352701679121773121
+  y = 5
+  height = 354
+}
+
+customization {
+  path = resources/uistuff/panel02.png
+  orientation = mid-centered
+  x = -182
+  width = 365
+  action = addtexture
+  actionid = 53a446b8-0984-40b3-a866-29f3bfa926561679121773121
+  y = -63
+  height = 175
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = config/fancymenu/text/hud.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 151
+  width = 337
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 78e858c7-a80e-46cb-a0b4-b36d466db5151679121773121
+  y = 125
+  alignment = left
+  height = 154
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 1bd02d4f-b9b7-4c53-8f0b-3bfd4841bd701690988816320
+  y = 0
+  height = 360
+}
+

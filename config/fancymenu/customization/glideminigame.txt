@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = glideminigame
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel02.png
+  orientation = mid-centered
+  x = -182
+  width = 365
+  action = addtexture
+  actionid = 45e7c1cb-906d-4a98-b977-faad454e89b01679123949917
+  y = -63
+  height = 175
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = d5f079db-78d3-433a-b04f-e01169add5861679123949917
+  y = 5
+  height = 354
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = config/fancymenu/text/glideminigame.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 151
+  width = 337
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e37133db-733a-4374-940b-e2e18ac7fbc11679123949917
+  y = 125
+  alignment = left
+  height = 154
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 477
+  width = 18
+  action = addtexture
+  actionid = f17fc335-8d31-425b-85a5-f7ef700254db1679123949917
+  y = 268
+  height = 15
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 459
+  width = 18
+  action = addtexture
+  actionid = fe509eed-549d-454c-81c8-7816bc1287df1679123949917
+  y = 268
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 8989bd7d-13d0-4a11-8cbc-57f4a92d36431690988876586
+  y = 0
+  height = 360
+}
+

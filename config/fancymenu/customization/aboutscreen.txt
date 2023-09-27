@@ -1,0 +1,136 @@
+type = menu
+
+customization-meta {
+  identifier = aboutscreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/modpackinfo.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = df1764d1-725f-4c2f-b799-da9d75813f721681380821238
+  y = 0
+  height = 360
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = be703122-3902-445a-9642-2edde7a4256e1678931137063
+  y = -179
+  height = 353
+}
+
+customization {
+  path = resources/uistuff/panel03.png
+  orientation = mid-centered
+  x = -84
+  width = 168
+  action = addtexture
+  actionid = f5fb9920-21e6-4b7b-bbb3-5cf09462fa891678931897458
+  y = -70
+  height = 196
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 242
+  width = 157
+  action = addtexture
+  actionid = 0a97b4f4-04c0-4a89-b3bc-a6a98c8cfffa1678932208558
+  y = 117
+  height = 138
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.6
+  source = config/fancymenu/text/about.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 243
+  width = 156
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9e6b3cdf-d8ef-4f02-9dcb-89a981b83a2c1678932256732
+  y = 123
+  alignment = centered
+  height = 123
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.class_442%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/modpackinfo/backtomainmenu-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 243
+  width = 154
+  action = addbutton
+  actionid = eea48c03-4b07-41d3-b9da-6dbac0d427191678934619527
+  y = 257
+  backgroundnormal = config/fancymenu/buttons/modpackinfo/backtomainmenu.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 370
+  actionid = fd9030e6-3653-4f9d-b754-e8f5ef9f89a11679111151107
+  action = addsplash
+  y = 75
+  text = Quartz's Console
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://qconsoles-organization.gitbook.io/quartzs-console-wiki/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/modpackinfo/gitbookwiki-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 243
+  width = 154
+  action = addbutton
+  actionid = 465ef975-aeb1-4888-a9e7-0eaf0c659ee91680007482352
+  y = 279
+  backgroundnormal = config/fancymenu/buttons/modpackinfo/gitbookwiki.png
+  height = 20
+}
+

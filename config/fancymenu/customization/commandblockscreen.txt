@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_477
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/uistuff/dark.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/faketooltips/b-back.png
+  orientation = top-left
+  x = 87
+  width = 44
+  action = addtexture
+  actionid = dd0fbebd-1891-4bee-99c8-a001fed3f9bb1678838106098
+  y = 317
+  height = 19
+}
+
+customization {
+  path = config/fancymenu/faketooltips/key-type.png
+  orientation = top-left
+  x = 49
+  width = 40
+  action = addtexture
+  actionid = 74aa83a6-0695-4bf0-bb70-f509a5e27af71678847009649
+  y = 317
+  height = 19
+}
+

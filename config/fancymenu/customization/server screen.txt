@@ -1,0 +1,33 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_500
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  custom_menu_title = LEM server only works on the latest version, No Mini Games today. =(
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = mid-centered
+  x = -175
+  width = 346
+  action = addtexture
+  actionid = 8aef1cf7-1558-4119-8421-33bfd8879f2c1678797477049
+  y = -118
+  height = 196
+}
+

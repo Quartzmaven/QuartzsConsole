@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_488
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/tooltips/creative.png
+  orientation = top-left
+  x = 0
+  width = 480
+  action = addtexture
+  actionid = d134b3ca-ddd7-4cb2-ab21-77a0476e76dc1681452433689
+  y = 0
+  height = 270
+}
+

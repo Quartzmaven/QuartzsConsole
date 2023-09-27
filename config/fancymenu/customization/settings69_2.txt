@@ -1,0 +1,186 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_458
+  randomgroup = 1
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:cbfb99a4-44a0-46bd-8e10-37532555edff1680872180609] = 
+  renderorder = background
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/uistuff/dark.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=658154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400226%
+  orientation = top-right
+  x = -395
+  action = movebutton
+  y = 233
+}
+
+customization {
+  identifier = %id=400226%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400226%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400226%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls/done-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls/done.png
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = mid-left
+  x = 245
+  action = movebutton
+  y = -57
+}
+
+customization {
+  identifier = %id=505154%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls/keybinds-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls/keybinds.png
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = top-left
+  x = 245
+  action = movebutton
+  y = 101
+}
+
+customization {
+  identifier = %id=345154%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=345154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls/mousesettings-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls/mousesettings.png
+}
+
+customization {
+  identifier = %id=345202%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 9
+}
+
+customization {
+  identifier = %id=345202%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls/blanktoggles-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls/blanktoggles.png
+}
+
+customization {
+  identifier = %id=505178%
+  orientation = top-centered
+  x = -75
+  action = movebutton
+  y = 167
+}
+
+customization {
+  identifier = %id=505178%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls/blanktoggles-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls/blanktoggles.png
+}
+
+customization {
+  identifier = %id=345178%
+  orientation = bottom-left
+  x = 245
+  action = movebutton
+  y = -215
+}
+
+customization {
+  identifier = %id=345178%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/settings/controls/blanktoggles-hover.png
+  backgroundnormal = config/fancymenu/buttons/settings/controls/blanktoggles.png
+}
+
+customization {
+  path = resources/uistuff/settingsimage2.png
+  orientation = mid-centered
+  x = -87
+  width = 174
+  action = addtexture
+  actionid = 3196e524-137e-448c-9427-4f3ed99c5b591678758340379
+  y = -89
+  height = 179
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;eu.midnightdust.midnightcontrols.client.gui.MidnightControlsSettingsScreen%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/buttons/settings/controls/controlleroptions-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 245
+  width = 150
+  action = addbutton
+  actionid = 39bd9396-50ce-4ee2-9680-ecebef827d281681003704234
+  y = 211
+  backgroundnormal = config/fancymenu/buttons/settings/controls/controlleroptions.png
+  height = 20
+}
+

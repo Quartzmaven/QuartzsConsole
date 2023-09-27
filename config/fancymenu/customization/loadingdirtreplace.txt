@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3928
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = mid-centered
+  x = -320
+  width = 640
+  action = addtexture
+  actionid = 11d66b54-75ed-4d35-b62d-98b4091f8b741691720850474
+  y = -175
+  height = 353
+}
+
+customization {
+  path = resources/uistuff/panel04.png
+  orientation = top-left
+  x = 120
+  width = 401
+  action = addtexture
+  actionid = 894e8eef-b619-4a2d-819e-a8930e5607491691724349546
+  y = 255
+  height = 55
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #ffffff
+  shadow = true
+  splashfilepath = config/fancymenu/text/tips.txt
+  rotation = 0.0
+  scale = 1.5
+  refresh = true
+  bouncing = false
+  vanilla-like = false
+  x = -43
+  actionid = 8f7c957f-8900-400f-a5c5-9fb716132ee81679022826190
+  action = addsplash
+  y = 83
+}
+
+customization {
+  path = resources/uistuff/image.png
+  orientation = mid-centered
+  x = -108
+  width = 219
+  action = addtexture
+  actionid = b90a63c5-5965-4c45-a21c-d481063910f21679046752579
+  y = -32
+  height = 35
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffffff
+  shadow = true
+  rotation = 0.0
+  scale = 0.7
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  x = 192
+  actionid = ef7e0ba9-66cd-40f4-9a02-a0957fc833871680841324431
+  action = addsplash
+  y = 186
+  text = Loading spawn area
+}
+
+customization {
+  orientation = bottom-left
+  name = loadingbar_0912
+  x = 160
+  width = 320
+  actionid = bbf82c41-d458-4dd8-b2cc-5ede868a21521681378167575
+  action = addanimation
+  y = -165
+  height = 10
+}
+

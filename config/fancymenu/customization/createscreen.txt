@@ -1,0 +1,245 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_525
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  custom_menu_title = 
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505158%
+  orientation = mid-left
+  x = 325
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=345158%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 177
+}
+
+customization {
+  identifier = %id=35588%
+  orientation = top-centered
+  x = -147
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=55588%
+  orientation = top-centered
+  x = 55
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=505120%
+  orientation = bottom-left
+  x = 325
+  action = movebutton
+  y = -161
+}
+
+customization {
+  identifier = %id=345100%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -81
+}
+
+customization {
+  identifier = %id=5059751%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 221
+}
+
+customization {
+  identifier = %id=5059751%
+  width = 310
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505100%
+  orientation = mid-left
+  x = 165
+  action = movebutton
+  y = -43
+}
+
+customization {
+  identifier = %id=505975%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -139
+}
+
+customization {
+  identifier = %id=425236%
+  orientation = bottom-centered
+  x = -155
+  action = movebutton
+  y = -139
+}
+
+customization {
+  identifier = %id=345975%
+  orientation = bottom-centered
+  x = -155
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=345975%
+  width = 310
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=5051001%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 177
+}
+
+customization {
+  identifier = %id=45588%
+  orientation = top-left
+  x = 274
+  action = movebutton
+  y = 99
+}
+
+customization {
+  identifier = %id=65590%
+  orientation = top-centered
+  x = 151
+  action = movebutton
+  y = 101
+}
+
+customization {
+  identifier = %id=505151%
+  orientation = top-left
+  x = 325
+  action = movebutton
+  y = 137
+}
+
+customization {
+  identifier = %id=505182%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 199
+}
+
+customization {
+  identifier = %id=345151%
+  orientation = bottom-left
+  x = 325
+  action = movebutton
+  y = -261
+}
+
+customization {
+  identifier = %id=345182%
+  orientation = bottom-left
+  x = 165
+  action = movebutton
+  y = -161
+}
+
+customization {
+  identifier = %id=30590%
+  orientation = top-left
+  x = 127
+  action = movebutton
+  y = 101
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 0b7e4ce3-3c4d-4eee-a425-1ca29a6b431f1681388609431
+  y = -14
+  height = 360
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = %n%{"placeholder":"playername"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 431
+  width = 159
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 617e751b-c3c2-465c-b7a7-377d70e03f551680957374896
+  y = 303
+  alignment = right
+  height = 37
+}
+
+customization {
+  path = resources/uistuff/creationscreen.png
+  orientation = mid-centered
+  x = -211
+  width = 422
+  action = addtexture
+  actionid = 5c837c0d-24df-4b25-94bc-b0e9d0fa333b1678794881934
+  y = -187
+  height = 268
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 118
+  width = 404
+  action = addtexture
+  actionid = 4ae86b73-5738-4409-8ca6-bddc8c809d8e1690987845143
+  y = 23
+  height = 231
+}
+
