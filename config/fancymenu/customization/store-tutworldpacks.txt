@@ -1,0 +1,310 @@
+type = menu
+
+customization-meta {
+  identifier = store-tutorialworldpacks
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Store Goofy AHH PLEASE CHANGE
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 529e5720-be84-4e61-a921-46c6e73b832f1689002683729
+  y = 6
+  height = 100
+}
+
+customization {
+  path = resources/uistuff/panel03.png
+  orientation = top-left
+  x = 118
+  width = 200
+  action = addtexture
+  actionid = 05141132-b35b-4cb4-b825-e21c1a0617671689002695260
+  y = 81
+  height = 236
+}
+
+customization {
+  path = resources/uistuff/panel03.png
+  orientation = top-left
+  x = 323
+  width = 200
+  action = addtexture
+  actionid = 802f0cda-56cf-4791-a09a-d1b65dc96d191689002721399
+  y = 81
+  height = 236
+}
+
+customization {
+  path = resources/uistuff/arrow_left.png
+  orientation = top-left
+  x = 87
+  width = 30
+  action = addtexture
+  actionid = 9a7fa629-df8e-4c3a-a321-f9b3776829fb1690880519102
+  y = 155
+  height = 50
+}
+
+customization {
+  path = resources/uistuff/arrow_right.png
+  orientation = top-left
+  x = 524
+  width = 30
+  action = addtexture
+  actionid = ad701e27-435a-4c44-90f4-6d4c074951011690880528145
+  y = 155
+  height = 50
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 124
+  width = 187
+  action = addtexture
+  actionid = ccf11a69-a804-46d2-9046-047f2225e9ad1690880668436
+  y = 88
+  height = 220
+}
+
+customization {
+  path = resources/uistuff/panel01.png
+  orientation = top-left
+  x = 330
+  width = 187
+  action = addtexture
+  actionid = d6da012b-6d27-4142-b767-4f6511c2f5bf1690880682400
+  y = 88
+  height = 220
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = dbe3ee48-2ab9-452b-ae4d-c85f580092f61690880723306
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &lTU1
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 130
+  width = 174
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 61e57a3a-6fc8-4263-b2f5-d6af3d364cee1690880725405
+  y = 94
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &lTU3%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 336
+  width = 174
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0a2f2f8c-2d0c-4f74-ad7b-5dfa16da00db1690880809124
+  y = 94
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = This is the original tutorial %n%world from the Console Edition%n%of Minecraft. It includes a %n%tutorial area, two villages, %n%a lighthouse, and the %n%infamous castle with a library.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 135
+  width = 164
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ec05adaa-3927-4f4d-ae2c-74b3211d77391690880835653
+  y = 187
+  alignment = left
+  height = 94
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.theminecraftarchitect.com/tutorial-worlds/tu1%btnaction_splitter_fm%
+  x = 130
+  width = 175
+  action = addbutton
+  actionid = 045c8370-7e1b-410c-b9ec-a03eb9736a591690880841847
+  y = 283
+  label = Download
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.theminecraftarchitect.com/tutorial-worlds/tu3%btnaction_splitter_fm%
+  x = 336
+  width = 175
+  action = addbutton
+  actionid = 0d164ff2-2d6c-4b9e-ad30-bbba587b46441690880878208
+  y = 283
+  label = Download
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = This is the second tutorial %n%world from the Console %n%Edition of Minecraft.%n%Hidden beneath the surface, %n%there are a couple secrets %n%in this world.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 342
+  width = 164
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5c9a6f81-c286-43a6-9055-5dc5e2abda231690880915966
+  y = 187
+  alignment = left
+  height = 94
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 145fbbf4-de91-4d54-8bab-1e016db8ffc61690880952499
+  y = 6
+  height = 100
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 66f5f412-b76d-4d7b-b574-f2fc238f4a811690881148427
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &lWorld ported by The Minecraft Architect
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 182
+  width = 276
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6bd200a2-d27a-48cb-8cf1-4faa84477fe91690881151884
+  y = 325
+  alignment = centered
+  height = 27
+}
+
+customization {
+  orientation = top-left
+  name = tu1_slideshow
+  x = 156
+  width = 120
+  actionid = 5e598188-ceae-4796-ad36-3179ea9d44131690882675222
+  action = addslideshow
+  y = 113
+  height = 65
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = c33d5e1b-4888-4d75-8105-33977a05c72a1690882718401
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  name = tu3_slideshow
+  x = 362
+  width = 120
+  actionid = be1d7cb1-613c-4c09-92d8-b5bd03bc6a7c1690882725011
+  action = addslideshow
+  y = 113
+  height = 65
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundhovered = resources/uistuff/invisible_button.png
+  label =    
+  clicksound = resources/sounds-converted/ui_fail.wav
+  loopbackgroundanimations = true
+  hoverlabel =     
+  x = 89
+  width = 26
+  action = addbutton
+  actionid = 09e74675-1634-4688-b1e4-f0b4f54d0fac1691296036434
+  y = 155
+  backgroundnormal = resources/uistuff/invisible_button.png
+  height = 48
+}
+

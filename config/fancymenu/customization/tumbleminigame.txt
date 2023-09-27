@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = tumbleminigame
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/glsl_panorama/panorama/texture.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/uistuff/panel02.png
+  orientation = mid-centered
+  x = -182
+  width = 365
+  action = addtexture
+  actionid = 59bc237e-2c3d-47b6-b92b-ca0c982aa0241679123845511
+  y = -63
+  height = 175
+}
+
+customization {
+  path = resources/minecraft/textures/gui/title/background/panorama_overlay.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = d9ea1427-025d-4fb2-abad-d1408953f9001679123845511
+  y = 5
+  height = 354
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = config/fancymenu/text/tumbleminigame.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 151
+  width = 337
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 621da2b5-442c-47a3-a161-4479fc60f2451679123845511
+  y = 125
+  alignment = left
+  height = 154
+}
+
+customization {
+  path = resources/uistuff/scroll_down.png
+  orientation = top-left
+  x = 477
+  width = 18
+  action = addtexture
+  actionid = be57ae25-856d-43ab-9c22-c041d52f16b51679123845511
+  y = 268
+  height = 15
+}
+
+customization {
+  advanced_height = 15
+  path = resources/uistuff/scroll_up.png
+  orientation = top-left
+  x = 459
+  width = 18
+  action = addtexture
+  actionid = db29a4e6-c745-4dce-a27b-9cd2920761831679123845511
+  y = 268
+  advanced_width = 18
+  height = 15
+}
+
+customization {
+  path = resources/tooltips/overlay-1.png
+  orientation = top-left
+  x = 0
+  width = 640
+  action = addtexture
+  actionid = 69acbca4-4f23-41e4-a327-90a5e9bad8731690988841346
+  y = 0
+  height = 360
+}
+

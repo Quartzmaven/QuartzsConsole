@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_490
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=516478%
+  action = hidebutton
+}
+
+customization {
+  path = resources/tooltips/survival.png
+  orientation = top-left
+  x = 0
+  width = 480
+  action = addtexture
+  actionid = 74273cd5-5edd-4590-adf4-a68ee31e654b1681995545792
+  y = 0
+  height = 270
+}
+
