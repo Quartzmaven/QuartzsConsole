@@ -1,0 +1,38 @@
+
+&2Quartz's Console - Public
+
+Let me know if you have any problems: Quartzmaven#1424
+
+- UI and visual upgrade
+- File compressed to 100+ MB.
+- Minecraft Store is now open!
+- Added Host Options ("j" Key)
+- Includes previous fix: Disabled Reacharound Indicator
+and Outline.
+- Moved "How To Play" button from main menu &
+pause menu to Settings.
+- Replaced original Console Sounds to a mod
+by TechSupportRed.
+- Replaced Held Item Tooltips, now slightly smaller.
+- Improved performance.
+- Development moved to Linux, expect bugs on Windows.
+- Added Sword Blocking
+- Disabled 1.14 Smooth Sneak
+- Added Flying In Survival
+- Fly speed tweaked
+- Fixed keybinds, no longer conflicts.
+- Added Modern World Creation
+- Improved block highlights
+- Updated water texture - by LaffyTaffy
+- Added OptiFine-like zoom
+- Removed Narrator
+- Loading bar improvements - by LaffyTaffy
+- Removed LEM Client Helper
+- Unbinded crosshair options by default
+- Brightened container menus
+- Removed version code in changelog.
+
+Thanks for downloading!
+
+Click on the right side of the screen to
+see the Aquatic Update Changelogs!

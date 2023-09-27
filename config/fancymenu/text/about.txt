@@ -1,0 +1,22 @@
+
+&lQuartz's Console [OPEN BETA]
+
+Made by &lQuartzmaven
+Original modpack by &lN00B
+
+Extra button icons made by &lLaffyTaffy
+
+Generic icons taken from &lAgentMindStorm's
+&lController Tooltip Selector Pack.
+(Bedrock Addon)
+
+Developer Art+ by &lshmoobalizer
+
+Original console UI design by 
+&lJulie "Danger" Kennedy
+
+&4&lWARNING: &cThis modpack is currently 
+&cwork-in-progress! 
+&cExpect some bugs and issues.
+
+

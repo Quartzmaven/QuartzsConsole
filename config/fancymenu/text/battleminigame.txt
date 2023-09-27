@@ -1,0 +1,50 @@
+
+&2HOW TO PLAY : BATTLE MINI GAME
+
+All information came from the actual console! All texts have 
+been slightly edited. It's not recommended to follow 
+everything from here.
+
+Battle is a frantic last-man-standing fight to the death,
+where players will have to scavenge the arena for chests
+containing weapons, armor and food in order to survive and
+to have an advantage over other players.
+The last player alive, or the player with the most kills
+when the level time ends, is the winner!
+
+&9Gameplay
+At the start of the game, the players are placed in a
+lobby area while other players are joining the game. Once
+there are a minimum number of players in the lobby,
+a timer will start; although if all players declare
+themselves ready, the game will start immediately.
+
+Once the players enter the first arena, they will be locked
+to a podium position while everyone is loading and a timer
+will count down to the start of the game.
+Once the timer runs out, the players are released from their
+podiums, but will be invulnerable for a short time to allow
+them to find a weapon.
+
+After the grace period, the battle begins!
+
+Each round lasts a set time, or until there is only
+one surviving player. The game will then progress to the
+next arena, and all of the dead players will respawn.
+
+&9Restrictions
+In Battle, players are not able to build or mine; it's all
+about finding the weapons, armor, and food needed to survive!
+
+&9Spectating
+When a player dies, they will be able to watch the action
+as a spectator; either by following a surviving player, or
+by flying aound the arena as a Bat, Parrot, Vex, or floating
+head!
+
+&9Match Reports
+At the end of a round, there will be a match report showing the
+statistics for the round.
+Players will be awarded medals for their achievements
+(or lack of achievements) in the round.
+

@@ -1,0 +1,37 @@
+
+&2HOW TO PLAY : CREATIVE MODE
+
+All information came from 
+the actual console! All texts have 
+been slightly edited. It's not 
+recommended to follow everything 
+from here.
+
+The creative mode interface 
+allows any item in the game to be
+moved into the player's inventory
+without the need for mining or
+crafing the item.
+The items in the player's inventory
+will not be removed when they are 
+placed or used in the world. This 
+allows the player to focus on building
+rather than resource gathering.
+If you create, load, or save a world
+in Creative Mode, that world will have
+achievements and leaderboard updates
+disabled, even if it is later loaded
+in Survival Mode.
+When in Creative mode, to fly
+quickly tap the Space key (A Button)
+twice. To fly faster, press
+Shift + W (tap Left Stick & Forward
+at the same time). To stop flying,
+double press the Space key again.
+When flying, you can hold the
+Space key (A Button) to ascend
+and Ctrl key (Right Stick) to
+descend; or use [?]
+key to move up, [?] to move down,
+[?] to move left, and [?] to move
+right.

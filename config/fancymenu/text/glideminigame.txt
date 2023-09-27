@@ -1,0 +1,84 @@
+
+&2HOW TO PLAY : GLIDE MINI GAME
+
+All information came from the actual console! All texts have 
+been slightly edited. It's not recommended to follow 
+everything from here.
+
+Coordinates back to the lobby is: -342 57 -341
+
+Glide is a fast paced Elytra Mini Game. There are 2 variants:
+&2Score Attack:
+Fly through score rings to gain points. The player with the
+most points is the winner, but you have to reach the end for
+your score to count!
+&2Time Attack:
+Speed is of the essence! The player who reaches the end in
+the fastest line is the winner.
+
+&9Lobby
+At the start of the game, the players are placed in a lobby
+area while other players are joining the game. Once there are
+a minimum number of players in the lobby, a countdown timer
+will start; although if all players declare
+themselves ready, the game will start immediately.
+
+&9Gameplay - General
+Glide is all about flying without power; you can gain speed by
+diving, but you'll stall if you climb to steeply.
+In Glide, you will find Thermals and Speed Boosts. There are
+2 types of each:
+
+&9Thermals
+Fixed (White): These lift you up to a set height.
+&bNatural (Blue): These lift you up based on your speeed and
+angle; the longer you stay in a Natural Thermal, the more
+height you will gain.
+
+&9Speed Boosts
+&eDirectional (Yellow): These boost you in the direction 
+the arrows point.
+&6Omni (Orange): These boost you in the direction that you
+are facing on entering.
+
+&9Gameplay - Score Attack
+In Score Attack, the goal is to score as many points as 
+possible by flying through rings. You still have to reach
+the end for your score to count.
+
+&2Green&f Rings = 3 Points.
+&eYellow&f Rings = 5 Points.
+&bBlue&f Rings = 7 Points.
+
+The player who crosses the finish line with the most
+points wins. In case of a tie, the tied player with
+the fastest time wins.
+
+&9Gameplay - Time Attack
+In Time Attack, the goal is simply to reach the end as
+quickly as possible. The player with the single fastest
+time in any of the three rounds us declared the winner!
+
+&9Hurry Up!
+After any player finishes the course, a timer will start.
+The timer will be shortened every time another player
+reaches the end, so hurry up!
+
+&9Solo
+Glide can also be played Solo in either variant for
+practice; you can even restart the race by pressing the
+B Button, or go back to the last checkpoint by pressing
+the X Button.
+
+&9Checkpoints
+When a player dies, they will respawn at the last checkpoint
+that they reached. Checkpoints are marked by beacons - passing
+through a checkpoint will also flash "Checkpoint!" on screen,
+and play a sound. There is no limit to the number of times
+you can respawn, but the clock keeps running!
+
+&9Game Stats
+At the end of a game, there will be a scoreboard showing the
+statistics for that game.
+Players will be awarded medals for their achievements
+(or lack of achievements) in the game.

@@ -1,0 +1,30 @@
+
+&2HOW TO PLAY : BASICS
+
+All information came from the actual console! All texts have 
+been slightly edited. It's not recommended to follow 
+everything from here.
+
+Minecraft is a game about placing blocks to build anything 
+you can imagine. At night monsters come out, so make sure to 
+build a shelter before that happens.
+
+Use the Mouse (Right Stick) to look around.
+
+Use the WASD keys (Left Stick) to move around.
+
+Press the Space key (A Button) to jump.
+
+Press Shift + W (by default, or Push Left Stick forward) twice in 
+rapid succession to sprint. While you hold Shift + W 
+(Left Stick forward), you will continue to sprint until you run 
+out of sprint time or have less than 3 drumsticks on 
+your hunger bar.
+
+Left Click on your mouse (or Hold Right Trigger) to mine and
+chop using your hand or whatever you are holding. You may need 
+to craft a tool to mine some blocks.
+
+If you are holding an item in your hand press Right Click on 
+your mouse (or Use Left Trigger) to use that item or press Q 
+key (or the B Button) to drop it.
