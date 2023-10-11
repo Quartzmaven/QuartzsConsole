@@ -33,7 +33,7 @@ Credits:
 - [ ] Legacy/Bedrock Air Punch Sounds
 - [ ] Console UI (Creative, Crafting Menu, etc...) - Requested by Steeve & LaffyTaffy
 - [X] Fast block placing - option in MidnightControls **(1.19 only)**
-- [X] No Fly Drifting - option in MidnightControls/Controlify
+- [X] No Fly Drifting - option in MidnightControls/Controlify **[Controller only]**
 - [X] Completely semi-transparent white crossbar
 - [X] Content skins (12 packs)
 - [X] Tutorial World
