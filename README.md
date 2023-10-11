@@ -4,7 +4,7 @@ Beta builds are available on the [Quartz's Console](https://quartzsconsole.novas
 
 1.3 is still in beta/canary stage.  Expect bugs and unfinished elements.
 
-Note: These versions aren't finalized.
+Note: Canary versions aren't finalized.
 
 Credits:
 - Bathtubfulloftoast
