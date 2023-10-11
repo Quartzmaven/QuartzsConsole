@@ -20,4 +20,28 @@ Credits:
 - 4J Studios - for making the console editions
 - Mojang - for making Minecraft
 
-No, there won't be any support after 1.19.2.
+
+## To-do list
+- [X] Better Gamma Shading
+- [ ] Legacy/Bedrock Hand Swimming Animations - Requested by LaffyTaffy
+- [ ] Keep menu music running when loading world - Requested by LaffyTaffy
+- [X] TNT Explodes game rule
+- [ ] Chat Bar Background across the screen - Requested by LaffyTaffy
+- [X] Sword parry/blocking
+- [ ] Really Accurate Loading Bar, not fake
+- [ ] No Fog, only sky during Ender Dragon fights.
+- [ ] Legacy/Bedrock Air Punch Sounds
+- [ ] Console UI (Creative, Crafting Menu, etc...) - Requested by Steeve & LaffyTaffy
+- [X] Fast block placing - option in MidnightControls **(1.19 only)**
+- [X] No Fly Drifting - option in MidnightControls/Controlify
+- [X] Completely semi-transparent white crossbar
+- [X] Content skins (12 packs)
+- [X] Tutorial World
+- [X] Downloadable Content
+- [X] Floating hotbar
+- [X] Loading screens
+- [X] 2D Panorama
+- [X] Old Textures and Custom Textures
+- [X] Faster Minecarts [EXPERIMENTAL]
+
+No, there won't be any support after 1.20.1.
